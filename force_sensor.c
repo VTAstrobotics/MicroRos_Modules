@@ -81,7 +81,8 @@ int main()
     msg.data = 0;
     while (true)
     {
-        rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100));
+        rclc_executor_spin_some(&executor, RCL_MS_TO_
+        NS(100));
     }
     return 0;
 }
