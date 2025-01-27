@@ -4,6 +4,11 @@
 #include <rcl/error_handling.h>
 #include <rclc/rclc.h>
 #include <rclc/executor.h>
+#include <stdio.h>
+#include <rcl/rcl.h>
+#include <rcl/error_handling.h>
+#include <std_msgs/msg/float32.h>
+
 #include <std_msgs/msg/int32.h>
 #include <sensor_msgs/msg/joy.h>
 
@@ -12,10 +17,15 @@
 #include "pico/stdlib.h"
 #include "pico_uart_transport.h"
 
-const uint LED_PIN = 25;
+#include <rmw_microros/rmw_microros.h>
+#include "pico_uart_transport.h"
+#include "hardware/adc.h"
 
+
+const uint LED_PIN = 25;
+const uint ADC_PIN = 26; 
 rcl_publisher_t publisher;
-std_msgs__msg__Int32 msg;
+std_msgs__msg__Float32 msg;
 
 void timer_callback(rcl_timer_t *timer, int64_t last_call_time)
 {
