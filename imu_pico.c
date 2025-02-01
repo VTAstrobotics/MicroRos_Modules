@@ -22,8 +22,8 @@
 
 
 
-#define I2C_SDA_PIN 16
-#define I2C_SCL_PIN 17
+#define I2C_SDA_PIN 12 //16
+#define I2C_SCL_PIN 13 //17
 #define I2C_PORT i2c0
 
 
