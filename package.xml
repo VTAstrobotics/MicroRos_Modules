@@ -2,8 +2,22 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>micro_ros_raspberrypicosdk</name>
-  <version>3.0.2</version>
-  <description>micro-ROS tools for Raspberry Pico SDK</description>
+  <version>3.0.3</version>
+  <description>micro-ROS tools for Raspberry Pi Pico SDK</description>
   <maintainer email="pablogarrido@eprosima.com">Pablo Garrido</maintainer>
   <license>Apache License 2.0</license>
+
+  <depend>rcl</depend>
+  <depend>rclc</depend>
+  <depend>rclc_executor</depend>
+  <depend>rmw_microxrcedds</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>pico_sdk</depend>
+  <depend>hardware_i2c</depend>
+  <depend>hardware_uart</depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 </package>

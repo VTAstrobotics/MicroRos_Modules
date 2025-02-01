@@ -9,7 +9,6 @@ include(pico_sdk_import.cmake)
 
 project(pico_micro_ros_example C CXX ASM)
 
-
 pico_sdk_init()
 
 link_directories(libmicroros)
@@ -17,15 +16,19 @@ add_executable(pico_micro_ros_example
     pico_micro_ros_example.c
     pico_uart_transport.c
     pico_uart_transport.h
-
+    imu_pico.c
+    imu_pico.h
 )
 target_link_libraries(pico_micro_ros_example
     pico_stdlib
     microros
+    hardware_i2c
+    hardware_gpio
 )
 
 target_include_directories(pico_micro_ros_example PUBLIC
     libmicroros/include
+    ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
 SET(CMAKE_C_FLAGS  "${CMAKE_C_FLAGS} -ffunction-sections -fdata-sections")
