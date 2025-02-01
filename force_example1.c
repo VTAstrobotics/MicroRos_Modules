@@ -65,7 +65,7 @@ int main() {
     // Taken from pico_micro_ros_example
     rcl_allocator_t allocator = rcl_get_default_allocator();
     rclc_support_t support;
-    rclc_node_t node;
+    rcl_node_t node;
     rclc_support_init(&support, 0, NULL, &allocator);
     rclc_node_init_default(&node, "pico_node", "", &support);
 

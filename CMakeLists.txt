@@ -1,3 +1,19 @@
+# == DO NOT EDIT THE FOLLOWING LINES for the Raspberry Pi Pico VS Code Extension to work ==
+if(WIN32)
+    set(USERHOME $ENV{USERPROFILE})
+else()
+    set(USERHOME $ENV{HOME})
+endif()
+set(sdkVersion 2.1.0)
+set(toolchainVersion 13_3_Rel1)
+set(picotoolVersion 2.1.0)
+set(picoVscode ${USERHOME}/.pico-sdk/cmake/pico-vscode.cmake)
+if (EXISTS ${picoVscode})
+    include(${picoVscode})
+endif()
+# ====================================================================================
+set(PICO_BOARD pico CACHE STRING "Board type")
+
 cmake_minimum_required(VERSION 3.12)
 
 set(PICO_SDK_FETCH_FROM_GIT on)
@@ -13,18 +29,19 @@ project(pico_micro_ros_example C CXX ASM)
 pico_sdk_init()
 
 link_directories(libmicroros)
-add_executable(pico_micro_ros_example
-    pico_micro_ros_example.c
+add_executable(force_example1
+    force_example1.c
     pico_uart_transport.c
     pico_uart_transport.h
 
 )
-target_link_libraries(pico_micro_ros_example
+target_link_libraries(force_example1
     pico_stdlib
     microros
+    hardware_i2c
 )
 
-target_include_directories(pico_micro_ros_example PUBLIC
+target_include_directories(force_example1 PUBLIC
     libmicroros/include
 )
 
@@ -32,11 +49,11 @@ SET(CMAKE_C_FLAGS  "${CMAKE_C_FLAGS} -ffunction-sections -fdata-sections")
 SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -ffunction-sections -fdata-sections")
 
 # Configure Pico
-pico_enable_stdio_usb(pico_micro_ros_example 1)
-pico_enable_stdio_uart(pico_micro_ros_example 0)
+pico_enable_stdio_usb(force_example1 1)
+pico_enable_stdio_uart(force_example1 0)
 add_compile_definitions(PICO_UART_ENABLE_CRLF_SUPPORT=0)
 add_compile_definitions(PICO_STDIO_ENABLE_CRLF_SUPPORT=0)
 add_compile_definitions(PICO_STDIO_DEFAULT_CRLF=0)
 
 # Generate UF2
-pico_add_extra_outputs(pico_micro_ros_example)
+pico_add_extra_outputs(force_example1)
