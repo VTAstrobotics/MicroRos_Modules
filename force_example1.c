@@ -25,6 +25,11 @@ This HAS NOT been tested and there is a good chance this does not work yet.
 #define FX29_MAX_LBF 200.0f  // Maximum force in pounds (adjust based on sensor range)
 rcl_publisher_t publisher;
 std_msgs__msg__Float32 msg;
+rcl_timer_t timer;
+rcl_node_t node;
+rcl_allocator_t allocator;
+rclc_support_t support;
+rclc_executor_t executor;
 
 void fx29_init() {
 
@@ -57,43 +62,60 @@ float fx29_convert_to_lbf(int16_t raw_force) {
 
 }
 
+void timer_callback(rcl_timer_t *timer, int64_t last_call_time) {
+
+    int16_t raw_force = fx29_read_force_raw();
+
+    if (raw_force >= 0) {
+        msg.data = fx29_convert_to_lbf(raw_force);
+        rcl_publish(&publisher, &msg, NULL);
+    } else {
+        printf("Error reading force data!\n");
+    }
+
+}
+
 int main() {
 
     stdio_init_all();
     fx29_init();
 
-    // Taken from pico_micro_ros_example
-    rcl_allocator_t allocator = rcl_get_default_allocator();
-    rclc_support_t support;
-    rcl_node_t node;
+    // Setup Micro-ROS transport
+    rmw_uros_set_custom_transport(
+        true, NULL, pico_serial_transport_open,
+        pico_serial_transport_close,
+        pico_serial_transport_write,
+        pico_serial_transport_read
+    );
+
+    // Wait for agent connection
+    const int timeout_ms = 1000; 
+    const uint8_t attempts = 120;
+    if (rmw_uros_ping_agent(timeout_ms, attempts) != RCL_RET_OK) {
+        printf("Micro-ROS agent not found\n");
+        return -1;
+    }
+
+    // Initialize Microros components, attempting to pattern match the example
+    allocator = rcl_get_default_allocator();
     rclc_support_init(&support, 0, NULL, &allocator);
     rclc_node_init_default(&node, "pico_node", "", &support);
 
     rclc_publisher_init_default(
-        
         &publisher,
         &node,
         ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Float32),
-        "fx29_force");
-
-    msg.data = 0.0f;
-
-    while (1) {
-
-        int16_t raw_force = fx29_read_force_raw();
-
-        if (raw_force >= 0) {
-
-            msg.data = fx29_convert_to_lbf(raw_force);
-            
-            rcl_publish(&publisher, &msg, NULL);
-            
-        } else {
-
-            printf("Error reading force data!\n");
-
-        }
-
-        sleep_ms(500);
+        "fx29_force"
+    );
+ 
+    rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(500), timer_callback);
+    rclc_executor_init(&executor, &support.context, 1, &allocator);
+    rclc_executor_add_timer(&executor, &timer);
+ 
+    while (true) {
+        rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100));
     }
+
+    return 0;
+
 }
