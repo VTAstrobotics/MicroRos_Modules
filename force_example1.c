@@ -9,6 +9,7 @@
 #include <std_msgs/msg/float32.h>
 #include <rmw_microros/rmw_microros.h>
 #include "pico_uart_transport.h"
+#include "pico/stdlib.h"
 
 /*
 This file is an attempted conversion of a file that reads a hx711 force sensor using pico into one
