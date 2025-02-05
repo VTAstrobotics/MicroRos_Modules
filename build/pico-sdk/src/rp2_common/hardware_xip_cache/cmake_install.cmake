@@ -1,4 +1,4 @@
-# Install script for directory: /home/rosdev/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xip_cache
+# Install script for directory: /home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/rp2_common/hardware_xip_cache
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/home/rosdev/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/arm-none-eabi-objdump")
 endif()
 

@@ -20,8 +20,8 @@ This HAS NOT been tested and there is a good chance this does not work yet.
 
 // Ports and pins
 #define I2C_PORT i2c0
-#define SDA_PIN 4
-#define SCL_PIN 5
+#define SDA_PIN 12
+#define SCL_PIN 13
 #define FX29_I2C_ADDR 0x28  // Default FX29 I2C address
 #define FX29_MAX_COUNTS 15000.0f  // Maximum digital counts from datasheet
 #define FX29_MAX_LBF 200.0f  // Maximum force in pounds (adjust based on sensor range)
@@ -45,16 +45,24 @@ void fx29_init() {
 
 int16_t fx29_read_force_raw() {
 
-    // Address reading
-    uint8_t buffer[2];
-    if (i2c_read_blocking(I2C_PORT, FX29_I2C_ADDR, buffer, 2, false) != PICO_ERROR_GENERIC) {
 
-        int16_t force = ((buffer[0] << 8) | buffer[1]) & 0x3FFF;
+
+    // Address reading
+    uint8_t timeout = 20;
+    uint8_t buffer[2];
+    i2c_write_timeout_us(I2C_PORT, FX29_I2C_ADDR | 0b00000001, buffer, 0, false, timeout);
+
+    if (i2c_read_timeout_us(I2C_PORT, FX29_I2C_ADDR, buffer, 2, false, timeout) != PICO_ERROR_GENERIC) {
+
+        int16_t force = ((buffer[0] << 8) | buffer[1]); & 0x3FFF;
         return force;
 
     }
     return -1;  
+
 }
+
+
 
 float fx29_convert_to_lbf(int16_t raw_force) {
 
