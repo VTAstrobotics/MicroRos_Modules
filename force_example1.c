@@ -48,12 +48,12 @@ int16_t fx29_read_force_raw() {
 
 
     // Address reading
-    uint8_t timeout = 5000;
+    uint8_t timeout = 15000;
     uint8_t buffer[2];
-    i2c_write_timeout_us(I2C_PORT, FX29_I2C_ADDR | 0b00000001, buffer, 1, true, timeout);
+    i2c_write_timeout_us(I2C_PORT, FX29_I2C_ADDR, buffer, 1, false, timeout);
     buffer[0] = 0;
     buffer[1] = 0 ;
-    if (i2c_read_timeout_us(I2C_PORT, FX29_I2C_ADDR, buffer, 2, true, timeout) != PICO_ERROR_GENERIC) {
+    if (i2c_read_timeout_us(I2C_PORT, FX29_I2C_ADDR, buffer, 2, false, timeout) != PICO_ERROR_GENERIC) {
 
         u_int64_t force = ((buffer[1] & 0x3F << 8) | buffer[0]);
         return ((buffer[1] << 8 )| buffer[0] );
