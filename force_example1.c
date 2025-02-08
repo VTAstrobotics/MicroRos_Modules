@@ -48,14 +48,15 @@ int16_t fx29_read_force_raw() {
 
 
     // Address reading
-    uint8_t timeout = 20;
+    uint8_t timeout = 5000;
     uint8_t buffer[2];
-    i2c_write_timeout_us(I2C_PORT, FX29_I2C_ADDR | 0b00000001, buffer, 0, false, timeout);
+    i2c_write_timeout_us(I2C_PORT, FX29_I2C_ADDR | 0b00000001, buffer, 1, true, timeout);
+    buffer[0] = 0;
+    buffer[1] = 0 ;
+    if (i2c_read_timeout_us(I2C_PORT, FX29_I2C_ADDR, buffer, 2, true, timeout) != PICO_ERROR_GENERIC) {
 
-    if (i2c_read_timeout_us(I2C_PORT, FX29_I2C_ADDR, buffer, 2, false, timeout) != PICO_ERROR_GENERIC) {
-
-        int16_t force = ((buffer[0] << 8) | buffer[1]); & 0x3FFF;
-        return force;
+        u_int64_t force = ((buffer[1] & 0x3F << 8) | buffer[0]);
+        return ((buffer[1] << 8 )| buffer[0] );
 
     }
     return -1;  
@@ -64,25 +65,23 @@ int16_t fx29_read_force_raw() {
 
 
 
-float fx29_convert_to_lbf(int16_t raw_force) {
+float fx29_convert_to_lbf(u_int64_t raw_force) {
 
     // Convertion based on data sheet values
     // https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=FX29&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=20009605-23
-    return (raw_force / FX29_MAX_COUNTS) * FX29_MAX_LBF;
+    
+    //return ((float)(raw_force) / FX29_MAX_COUNTS) * FX29_MAX_LBF;
+    return raw_force;
 
 }
 
-void timer_callback(rcl_timer_t *timer, int64_t last_call_time) {
+void timer_callback(rcl_timer_t *timer, u_int64_t last_call_time) {
 
-    int16_t raw_force = fx29_read_force_raw();
-
-    if (raw_force >= 0) {
-        msg.data = fx29_convert_to_lbf(raw_force);
-        rcl_publish(&publisher, &msg, NULL);
-    } else {
-        printf("Error reading force data!\n");
-    }
-
+    u_int16_t raw_force = fx29_read_force_raw();
+    
+    msg.data = fx29_convert_to_lbf(raw_force);
+    rcl_publish(&publisher, &msg, NULL);
+    
 }
 
 int main() {

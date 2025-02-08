@@ -191,7 +191,8 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
  /usr/include/c++/11/bits/vector.tcc \
  /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
- /usr/include/c++/11/bits/stl_numeric.h \
+ /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/cinttypes \
+ /usr/include/inttypes.h \
  /home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/common/boot_picobin_headers/include/boot/picobin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
