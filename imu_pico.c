@@ -7,11 +7,9 @@
 #include <rclc/executor.h>
 #include <std_msgs/msg/int32.h>
 #include <std_msgs/msg/float32.h>
+#include <hardware/i2c.h>
 #include <sensor_msgs/msg/imu.h>
-
-
 #include <sensor_msgs/msg/joy.h>
-
 
 #include <rmw_microros/rmw_microros.h>
 
@@ -136,10 +134,10 @@ static void timer_callback(rcl_timer_t *timer, int64_t last_call_time)
 
     rcl_ret_t ret = rcl_publish(&imu_publisher, &imu_msg, NULL);
     if (ret != RCL_RET_OK) {
-
         return ret;
     }
 }
+
 int main()
 {
     rmw_uros_set_custom_transport(
@@ -166,21 +164,17 @@ int main()
         return -1;
     }
 
-
     allocator = rcl_get_default_allocator();
     rclc_support_init(&support, 0, NULL, &allocator);
 
-
     rclc_node_init_default(&node, "imu_node", "", &support);
-
 
     rclc_publisher_init_default(
         &imu_publisher,
         &node,
-        ROSIDL_GET_MSG_TYPE_SUPPORT(sensor_msgs, msg, Imu)
+        ROSIDL_GET_MSG_TYPE_SUPPORT(sensor_msgs, msg, Imu),
         "imu/data"
     );
-
 
     const unsigned int timer_timeout = 50; // ms
     rclc_timer_init_default(
@@ -190,10 +184,8 @@ int main()
         timer_callback
     );
 
-
     rclc_executor_init(&executor, &support.context, 1, &allocator);
     rclc_executor_add_timer(&executor, &timer);
-
 
     memset(&imu_msg, 0, sizeof(sensor_msgs__msg__Imu));
 
@@ -201,10 +193,8 @@ int main()
         rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100));
     }
 
-
     rcl_publisher_fini(&imu_publisher, &node);
     rcl_node_fini(&node);
-
 
     return 0;
 }

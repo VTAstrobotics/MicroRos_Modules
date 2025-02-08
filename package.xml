@@ -16,6 +16,7 @@
   <depend>pico_sdk</depend>
   <depend>hardware_i2c</depend>
   <depend>hardware_uart</depend>
+  <depend>hardware_i2c</depend>
   
   <export>
     <build_type>ament_cmake</build_type>

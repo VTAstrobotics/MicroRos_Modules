@@ -17,13 +17,13 @@ add_executable(pico_micro_ros_example
     pico_uart_transport.c
     pico_uart_transport.h
     imu_pico.c
-    imu_pico.h
 )
 target_link_libraries(pico_micro_ros_example
     pico_stdlib
     microros
     hardware_i2c
     hardware_gpio
+    rclc
 )
 
 target_include_directories(pico_micro_ros_example PUBLIC
@@ -43,3 +43,5 @@ add_compile_definitions(PICO_STDIO_DEFAULT_CRLF=0)
 
 # Generate UF2
 pico_add_extra_outputs(pico_micro_ros_example)
+
+
