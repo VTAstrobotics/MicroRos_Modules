@@ -20,8 +20,8 @@ This HAS NOT been tested and there is a good chance this does not work yet.
 
 // Ports and pins
 #define I2C_PORT i2c0
-#define SDA_PIN 12
-#define SCL_PIN 13
+#define SDA_PIN 4
+#define SCL_PIN 5
 #define FX29_I2C_ADDR 0x28  // Default FX29 I2C address
 #define FX29_MAX_COUNTS 15000.0f  // Maximum digital counts from datasheet
 #define FX29_MAX_LBF 200.0f  // Maximum force in pounds (adjust based on sensor range)
@@ -33,6 +33,12 @@ rcl_allocator_t allocator;
 rclc_support_t support;
 rclc_executor_t executor;
 
+// Registers
+static const uint8_t REG_DEVID = 0x00;
+static const uint8_t REG_POWER_CTL = 0x2D;
+static const uint8_t REG_DATAX0 = 0x32;
+
+
 void fx29_init() {
 
     // Initialization functions
@@ -43,53 +49,96 @@ void fx29_init() {
     gpio_pull_up(SCL_PIN);
 }
 
-int16_t fx29_read_force_raw() {
+int reg_write(i2c_inst_t *i2c, 
+                const uint addr, 
+                const uint8_t reg, 
+                uint8_t *buf,
+                const uint8_t nbytes);
 
+int reg_read(   i2c_inst_t *i2c,
+                const uint addr,
+                const uint8_t reg,
+                uint8_t *buf,
+                const uint8_t nbytes);
 
+int reg_write(  i2c_inst_t *i2c, 
+                const uint addr, 
+                const uint8_t reg, 
+                uint8_t *buf,
+                const uint8_t nbytes) {
 
-    // Address reading
-    uint8_t timeout = 15000;
-    uint8_t buffer[2];
-    i2c_write_timeout_us(I2C_PORT, FX29_I2C_ADDR, buffer, 1, false, timeout);
-    buffer[0] = 0;
-    buffer[1] = 0 ;
-    if (i2c_read_timeout_us(I2C_PORT, FX29_I2C_ADDR, buffer, 2, false, timeout) != PICO_ERROR_GENERIC) {
+    int num_bytes_read = 0;
+    uint8_t msg[nbytes + 1];
 
-        u_int64_t force = ((buffer[1] & 0x3F << 8) | buffer[0]);
-        return ((buffer[1] << 8 )| buffer[0] );
-
+    // Check to make sure caller is sending 1 or more bytes
+    if (nbytes < 1) {
+        return 0;
     }
-    return -1;  
 
+    // Append register address to front of data packet
+    msg[0] = reg;
+    for (int i = 0; i < nbytes; i++) {
+        msg[i + 1] = buf[i];
+    }
+
+    // Write data to register(s) over I2C
+    i2c_write_blocking(i2c, addr, msg, (nbytes + 1), false);
+
+    return num_bytes_read;
 }
 
+// Read byte(s) from specified register. If nbytes > 1, read from consecutive
+// registers.
+int reg_read(  i2c_inst_t *i2c,
+                const uint addr,
+                const uint8_t reg,
+                uint8_t *buf,
+                const uint8_t nbytes) {
 
+    int num_bytes_read = 0;
 
-float fx29_convert_to_lbf(u_int64_t raw_force) {
+    // Check to make sure caller is asking for 1 or more bytes
+    if (nbytes < 1) {
+        return 0;
+    }
+
+    // Read data from register(s) over I2C
+    i2c_write_blocking(i2c, addr, &reg, 1, true);
+    num_bytes_read = i2c_read_blocking(i2c, addr, buf, nbytes, false);
+
+    return num_bytes_read;
+}
+
+int fx29_read_force_raw() {
+
+    // Address reading
+    uint8_t data[6];
+    return reg_read(I2C_PORT, FX29_I2C_ADDR, REG_DEVID, data, 1);
+}
+
+float fx29_convert_to_lbf(int raw_force) {
 
     // Convertion based on data sheet values
     // https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=FX29&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=20009605-23
-    
-    //return ((float)(raw_force) / FX29_MAX_COUNTS) * FX29_MAX_LBF;
+    //return (raw_force / FX29_MAX_COUNTS) * FX29_MAX_LBF;
     return raw_force;
 
 }
 
-void timer_callback(rcl_timer_t *timer, u_int64_t last_call_time) {
+void timer_callback(rcl_timer_t *timer, int64_t last_call_time) {
 
-    u_int16_t raw_force = fx29_read_force_raw();
-    
+    int raw_force = fx29_read_force_raw();
+ 
     msg.data = fx29_convert_to_lbf(raw_force);
     rcl_publish(&publisher, &msg, NULL);
-    
+
 }
 
 int main() {
 
     stdio_init_all();
     fx29_init();
-
-    // Setup Micro-ROS transport
+ 
     rmw_uros_set_custom_transport(
         true, NULL, pico_serial_transport_open,
         pico_serial_transport_close,
@@ -97,7 +146,6 @@ int main() {
         pico_serial_transport_read
     );
 
-    // Wait for agent connection
     const int timeout_ms = 1000; 
     const uint8_t attempts = 120;
     if (rmw_uros_ping_agent(timeout_ms, attempts) != RCL_RET_OK) {
