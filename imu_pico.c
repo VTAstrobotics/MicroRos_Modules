@@ -52,17 +52,19 @@ static void i2c_init_imu(void)
 
 static void i2c_write_byte(uint8_t dev_addr, uint8_t reg_addr, uint8_t data)
 {
+    uint8_t timeout = 15000;
     uint8_t buf[2];
     buf[0] = reg_addr;
     buf[1] = data;
-    i2c_write_blocking(I2C_PORT, dev_addr, buf, 2, false);
+    i2c_write_timeout_us(I2C_PORT, dev_addr, buf, 2, false, timeout);
 }
 
 
 static void i2c_read_bytes(uint8_t dev_addr, uint8_t reg_addr, uint8_t *data, size_t len)
 {
-    i2c_write_blocking(I2C_PORT, dev_addr, &reg_addr, 1, true);
-    i2c_read_blocking(I2C_PORT, dev_addr, data, len, false);
+    uint8_t timeout = 15000;
+    i2c_write_timeout_us(I2C_PORT, dev_addr, &reg_addr, 1, true, timeout);
+    i2c_read_timeout_us(I2C_PORT, dev_addr, data, len, false, timeout);
 }
 
 
@@ -136,7 +138,7 @@ static void timer_callback(rcl_timer_t *timer, int64_t last_call_time)
 
     rcl_ret_t ret = rcl_publish(&imu_publisher, &imu_msg, NULL);
     if (ret != RCL_RET_OK) {
-        return
+        return;
     }
 }
 
