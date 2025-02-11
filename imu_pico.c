@@ -18,7 +18,7 @@
 #include "pico_uart_transport.h"
 
 
-#define I2C_SDA_PIN 12 //16
+#define I2C_SDA_PIN 11 //16
 #define I2C_SCL_PIN 13 //17
 #define I2C_PORT i2c0
 
@@ -111,6 +111,7 @@ static void imu_fill_message(sensor_msgs__msg__Imu *msg)
     msg->orientation.y = 0.0;
     msg->orientation.z = 0.0;
     msg->orientation.w = 1.0;
+    //TODO
 
     msg->angular_velocity.x = gx;
     msg->angular_velocity.y = gy;
@@ -119,6 +120,7 @@ static void imu_fill_message(sensor_msgs__msg__Imu *msg)
     msg->linear_acceleration.x = ax;
     msg->linear_acceleration.y = ay;
     msg->linear_acceleration.z = az;
+    //TODO
 
 
     //covariance?
@@ -134,7 +136,7 @@ static void timer_callback(rcl_timer_t *timer, int64_t last_call_time)
 
     rcl_ret_t ret = rcl_publish(&imu_publisher, &imu_msg, NULL);
     if (ret != RCL_RET_OK) {
-        return ret;
+        return
     }
 }
 
