@@ -19,9 +19,9 @@ This HAS NOT been tested and there is a good chance this does not work yet.
 */
 
 // Ports and pins
-#define I2C_PORT i2c0
-#define SDA_PIN 12
-#define SCL_PIN 13
+#define I2C_PORT i2c1
+#define SDA_PIN 26
+#define SCL_PIN 27
 #define FX29_I2C_ADDR 0x28  // Default FX29 I2C address
 #define FX29_MAX_COUNTS 15000.0f  // Maximum digital counts from datasheet
 #define FX29_MAX_LBF 200.0f  // Maximum force in pounds (adjust based on sensor range)
@@ -56,7 +56,8 @@ int16_t fx29_read_force_raw() {
     if (i2c_read_timeout_us(I2C_PORT, FX29_I2C_ADDR, buffer, 2, false, timeout) != PICO_ERROR_GENERIC) {
 
         u_int64_t force = ((buffer[1] & 0x3F << 8) | buffer[0]);
-        return ((buffer[1] << 8 )| buffer[0] );
+        return force;
+
 
     }
     return -1;  
