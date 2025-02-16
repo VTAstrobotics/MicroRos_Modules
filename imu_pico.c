@@ -38,6 +38,39 @@ static rcl_allocator_t allocator;
 static rclc_support_t support;
 static rclc_executor_t executor;
 
+float eTime, cTime, pTime;
+
+typedef struct{
+    double w;
+    double x;
+    double y;
+    double z;
+}Quaterniond;
+
+Quaterniond toQuaternion(double yaw, double pitch, double roll) // yaw (Z), pitch (Y), roll (X)
+{
+    //Degree to radius:
+    yaw = yaw * M_PI / 180;
+    pitch = pitch * M_PI / 180;
+    roll = roll * M_PI / 180;
+
+
+    // Abbreviations for the various angular functions
+    double cy = cos(yaw * 0.5);
+    double sy = sin(yaw * 0.5);
+    double cp = cos(pitch * 0.5);
+    double sp = sin(pitch * 0.5);
+    double cr = cos(roll * 0.5);
+    double sr = sin(roll * 0.5);
+
+    Quaterniond q;
+    q.w = cy * cp * cr + sy * sp * sr;
+    q.x = cy * cp * sr - sy * sp * cr;
+    q.y = sy * cp * sr + cy * sp * cr;
+    q.z = sy * cp * cr - cy * sp * sr;
+    return q;
+}
+
 static void mpu6050_reset() {
     // Two byte reset. First byte register, second byte data
     // There are a load more options to set up the device in different ways that could be added here
@@ -123,6 +156,7 @@ static void imu_read_raw(int16_t accel[3], int16_t gyro[3], int16_t *temp)
 
 static void imu_fill_message(sensor_msgs__msg__Imu *msg)
 {
+
     int16_t acceleration[3], gyro[3], temp;
 
     int16_t ax_raw, ay_raw, az_raw;
@@ -138,10 +172,7 @@ static void imu_fill_message(sensor_msgs__msg__Imu *msg)
     float gy = (gyro[1] / 131.0f) * (3.14159265359f / 180.0f);
     float gz = (gyro[2] / 131.0f) * (3.14159265359f / 180.0f);
 
-    msg->orientation.x = 0.0;
-    msg->orientation.y = 0.0;
-    msg->orientation.z = 0.0;
-    msg->orientation.w = 1.0;
+
     //TODO
 
     msg->angular_velocity.x = gx;
@@ -153,8 +184,46 @@ static void imu_fill_message(sensor_msgs__msg__Imu *msg)
     msg->linear_acceleration.z = az;
     //TODO
 
+    uint32_t current_time = to_ms_since_boot(get_absolute_time());
+    static uint32_t previous_time = 0; //static so doesn't get reassigned every time
+    if (previous_time == 0) {
+        previous_time = current_time;
+    }
 
-    //covariance?
+    uint32_t dt_ms = current_time - previous_time;
+    previous_time = current_time;
+    float dt = dt_ms / 1000.0f;
+
+    float accAngleX = (atan(ay / sqrt(ax * ax + az * az)) * 180.0f / 3.14159265359f) - 0.58f;
+    float accAngleY = (atan(-ax / sqrt(ay * ay + az * az)) * 180.0f / 3.14159265359f) + 1.58f;
+
+    float gx_deg = gx * 180.0f / 3.14159265359f;
+    float gy_deg = gy * 180.0f / 3.14159265359f;
+    float gz_deg = gz * 180.0f / 3.14159265359f;
+
+    gx_deg += 0.02f;
+    gy_deg += 3.898f;
+    gz_deg += 0.25f;
+
+    static float gyroAngleX = 0.0f;
+    static float gyroAngleY = 0.0f;
+    static float yaw_angle   = 0.0f;
+    gyroAngleX += gx_deg * dt;
+    gyroAngleY += gy_deg * dt;
+    yaw_angle   += gz_deg * dt;
+
+    float roll  = 0.96f * gyroAngleX + 0.04f * accAngleX;
+    float pitch = 0.96f * gyroAngleY + 0.04f * accAngleY;
+
+    Quaterniond q;
+    q = toQuaternion(yaw_angle, pitch, roll);
+
+    
+    msg->orientation.x = q.x;
+    msg->orientation.y = q.y;
+    msg->orientation.z = q.z;
+    msg->orientation.w = q.w;
+
 }
 
 static void timer_callback(rcl_timer_t *timer, int64_t last_call_time)
