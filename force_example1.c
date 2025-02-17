@@ -164,11 +164,12 @@ int main() {
         ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Float32),
         "fx29_force"
     );
- 
-    rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(500), timer_callback);
+
     rclc_executor_init(&executor, &support.context, 1, &allocator);
     rclc_executor_add_timer(&executor, &timer);
- 
+    
+    rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(500), timer_callback);
+    
     while (true) {
         rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100));
     }
