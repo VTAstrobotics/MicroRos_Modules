@@ -54,11 +54,11 @@ int fx29_read_force_raw() {
 
     // Address reading
     uint8_t buf[2];
-    i2c_write_blocking(i2c0, FX29_I2C_ADDR, 0x00, 2, true );
+    i2c_write_timeout_us(i2c0, FX29_I2C_ADDR, 0x00, 3, true, 100000 );
     buf[0] = 0;
     buf[1] = 0;
-    i2c_read_blocking(i2c0, FX29_I2C_ADDR, buf, 2, false);
-    int force = (buf[0] << 8) | buf[1];
+    i2c_read_timeout_us(i2c0, FX29_I2C_ADDR, buf, 2, false, 100000);
+    int force = ((buf[0] & 0x3F ) << 8) | (buf[1] << 0);
     return force;
 }
 
@@ -66,8 +66,8 @@ float fx29_convert_to_lbf(int raw_force) {
 
     // Convertion based on data sheet values
     // https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=FX29&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=20009605-23
-    //return (raw_force / FX29_MAX_COUNTS) * FX29_MAX_LBF;
     return raw_force;
+    return (raw_force / FX29_MAX_COUNTS) * FX29_MAX_LBF;
 
 }
 
