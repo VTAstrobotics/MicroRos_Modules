@@ -238,4 +238,5 @@ CMakeFiles/competition_pico.dir/competition_pico.c.o: \
  /home/rosdev/ros2_ws/src/libmicroros/include/sensor_msgs/msg/joy.h \
  /home/rosdev/ros2_ws/src/libmicroros/include/sensor_msgs/msg/detail/joy__struct.h \
  /home/rosdev/ros2_ws/src/libmicroros/include/sensor_msgs/msg/detail/joy__functions.h \
- /home/rosdev/ros2_ws/src/libmicroros/include/sensor_msgs/msg/detail/joy__type_support.h
+ /home/rosdev/ros2_ws/src/libmicroros/include/sensor_msgs/msg/detail/joy__type_support.h \
+ /usr/include/newlib/math.h
