@@ -268,7 +268,8 @@ Quaterniond toQuaternion(double yaw, double pitch, double roll) // yaw (Z), pitc
     return q;
 }
 
-static void mpu6050_reset() {
+//making non static for compiling
+ void mpu6050_reset() {
     // Two byte reset. First byte register, second byte data
     // There are a load more options to set up the device in different ways that could be added here
     uint8_t buf[] = {0x6B, 0x80};
@@ -351,7 +352,8 @@ static void imu_read_raw(int16_t accel[3], int16_t gyro[3], int16_t *temp)
     *temp = buffer[0] << 8 | buffer[1];
 }
 
-static void imu_fill_message(sensor_msgs__msg__Imu *msg)
+//getting rid of the static declaration
+void imu_fill_message(sensor_msgs__msg__Imu *msg)
 {
 
     int16_t acceleration[3], gyro[3], temp;
