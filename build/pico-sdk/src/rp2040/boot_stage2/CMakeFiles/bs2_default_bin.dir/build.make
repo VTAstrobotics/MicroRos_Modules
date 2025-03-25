@@ -86,6 +86,6 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /home/rosdev/ros2_ws/src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosdev/ros2_ws/src /home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/rp2040/boot_stage2 /home/rosdev/ros2_ws/src/build /home/rosdev/ros2_ws/src/build/pico-sdk/src/rp2040/boot_stage2 /home/rosdev/ros2_ws/src/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rosdev/ros2_ws/src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosdev/ros2_ws/src /home/rosdev/pico-sdk/src/rp2040/boot_stage2 /home/rosdev/ros2_ws/src/build /home/rosdev/ros2_ws/src/build/pico-sdk/src/rp2040/boot_stage2 /home/rosdev/ros2_ws/src/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

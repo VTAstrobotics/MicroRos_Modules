@@ -92,7 +92,7 @@ picotool/src/picotoolBuild-stamp/picotoolBuild-build: picotool/src/picotoolBuild
 picotool/src/picotoolBuild-stamp/picotoolBuild-configure: picotool/tmp/picotoolBuild-cfgcmd.txt
 picotool/src/picotoolBuild-stamp/picotoolBuild-configure: picotool/src/picotoolBuild-stamp/picotoolBuild-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosdev/ros2_ws/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'picotoolBuild'"
-	cd /home/rosdev/ros2_ws/src/build/_deps/picotool-build && /usr/bin/cmake --no-warn-unused-cli -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake -DPICO_SDK_PATH:FILEPATH=/home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src -DPICOTOOL_NO_LIBUSB=1 -DPICOTOOL_FLAT_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/src/build/_deps -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" /home/rosdev/ros2_ws/src/build/_deps/picotool-src
+	cd /home/rosdev/ros2_ws/src/build/_deps/picotool-build && /usr/bin/cmake --no-warn-unused-cli -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake -DPICO_SDK_PATH:FILEPATH=/home/rosdev/pico-sdk -DPICOTOOL_NO_LIBUSB=1 -DPICOTOOL_FLAT_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/src/build/_deps -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" /home/rosdev/ros2_ws/src/build/_deps/picotool-src
 	cd /home/rosdev/ros2_ws/src/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/rosdev/ros2_ws/src/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-download: picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir

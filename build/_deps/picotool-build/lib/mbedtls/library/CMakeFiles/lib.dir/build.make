@@ -80,6 +80,6 @@ lib/mbedtls/library/CMakeFiles/lib.dir/clean:
 .PHONY : lib/mbedtls/library/CMakeFiles/lib.dir/clean
 
 lib/mbedtls/library/CMakeFiles/lib.dir/depend:
-	cd /home/rosdev/ros2_ws/src/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosdev/ros2_ws/src/build/_deps/picotool-src /home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/lib/mbedtls/library /home/rosdev/ros2_ws/src/build/_deps/picotool-build /home/rosdev/ros2_ws/src/build/_deps/picotool-build/lib/mbedtls/library /home/rosdev/ros2_ws/src/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rosdev/ros2_ws/src/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosdev/ros2_ws/src/build/_deps/picotool-src /home/rosdev/pico-sdk/lib/mbedtls/library /home/rosdev/ros2_ws/src/build/_deps/picotool-build /home/rosdev/ros2_ws/src/build/_deps/picotool-build/lib/mbedtls/library /home/rosdev/ros2_ws/src/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/mbedtls/library/CMakeFiles/lib.dir/depend
 

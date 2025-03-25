@@ -345,7 +345,7 @@ Mbed TLS_BINARY_DIR:STATIC=/home/rosdev/ros2_ws/src/build/_deps/picotool-build/l
 Mbed TLS_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-Mbed TLS_SOURCE_DIR:STATIC=/home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/lib/mbedtls
+Mbed TLS_SOURCE_DIR:STATIC=/home/rosdev/pico-sdk/lib/mbedtls
 
 //No help, variable specified on the command line.
 PICOTOOL_FLAT_INSTALL:UNINITIALIZED=1
@@ -354,7 +354,7 @@ PICOTOOL_FLAT_INSTALL:UNINITIALIZED=1
 PICOTOOL_NO_LIBUSB:UNINITIALIZED=1
 
 //No help, variable specified on the command line.
-PICO_SDK_PATH:FILEPATH=/home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src
+PICO_SDK_PATH:FILEPATH=/home/rosdev/pico-sdk
 
 //Allow unsafe builds. These builds ARE NOT SECURE.
 UNSAFE_BUILD:BOOL=OFF
@@ -584,6 +584,6 @@ _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/home/rosdev/ros2_ws/src/buil
 //Path to a program.
 _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3.10
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-aarch64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=61380851b1f49cd20124cec6c9ca8095
 

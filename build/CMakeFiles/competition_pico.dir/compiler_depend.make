@@ -31,58 +31,58 @@ CMakeFiles/competition_pico.dir/competition_pico.c.o: ../competition_pico.c \
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  _deps/pico_sdk-src/src/common/pico_stdlib_headers/include/pico/stdlib.h \
-  _deps/pico_sdk-src/src/common/pico_base_headers/include/pico.h \
-  _deps/pico_sdk-src/src/common/pico_base_headers/include/pico/types.h \
-  _deps/pico_sdk-src/src/common/pico_base_headers/include/pico/assert.h \
+  /home/rosdev/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  _deps/pico_sdk-src/src/common/pico_base_headers/include/pico/config.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  _deps/pico_sdk-src/src/boards/include/boards/pico.h \
-  _deps/pico_sdk-src/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  _deps/pico_sdk-src/src/rp2040/pico_platform/include/pico/platform.h \
-  _deps/pico_sdk-src/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  _deps/pico_sdk-src/src/common/pico_base_headers/include/pico/types.h \
-  _deps/pico_sdk-src/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  _deps/pico_sdk-src/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  _deps/pico_sdk-src/src/common/pico_base_headers/include/pico/error.h \
-  _deps/pico_sdk-src/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  _deps/pico_sdk-src/src/common/pico_time/include/pico/time.h \
-  _deps/pico_sdk-src/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  _deps/pico_sdk-src/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  _deps/pico_sdk-src/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  _deps/pico_sdk-src/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  _deps/pico_sdk-src/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  _deps/pico_sdk-src/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  _deps/pico_sdk-src/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  _deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  _deps/pico_sdk-src/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
   ../libmicroros/include/rcl/rcl.h \
   ../libmicroros/include/rcl/init.h \
   ../libmicroros/include/rcl/allocator.h \
@@ -259,6 +259,3673 @@ CMakeFiles/competition_pico.dir/competition_pico.c.o: ../competition_pico.c \
   ../libmicroros/include/sensor_msgs/msg/detail/joy__type_support.h \
   /usr/include/newlib/math.h
 
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/class/video/video_device.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/include/newlib/stdio.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/include/newlib/assert.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/dcd.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd_control.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/dcd.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_private.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/dcd.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /usr/include/newlib/stdlib.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/machine/stdlib.h \
+  /usr/include/newlib/alloca.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/lib/tinyusb/src/tusb.c.o: /home/rosdev/pico-sdk/lib/tinyusb/src/tusb.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_private.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/common/hardware_claim/claim.c.o: /home/rosdev/pico-sdk/src/common/hardware_claim/claim.c \
+  /home/rosdev/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/common/pico_sync/critical_section.c.o: /home/rosdev/pico-sdk/src/common/pico_sync/critical_section.c \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/common/pico_sync/lock_core.c.o: /home/rosdev/pico-sdk/src/common/pico_sync/lock_core.c \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/common/pico_sync/mutex.c.o: /home/rosdev/pico-sdk/src/common/pico_sync/mutex.c \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/common/pico_sync/sem.c.o: /home/rosdev/pico-sdk/src/common/pico_sync/sem.c \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/common/pico_time/time.c.o: /home/rosdev/pico-sdk/src/common/pico_time/time.c \
+  /usr/include/newlib/stdlib.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/stdlib.h \
+  /usr/include/newlib/alloca.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sync.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/common/pico_time/timeout_helper.c.o: /home/rosdev/pico-sdk/src/common/pico_time/timeout_helper.c \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/common/pico_util/datetime.c.o: /home/rosdev/pico-sdk/src/common/pico_util/datetime.c \
+  /home/rosdev/pico-sdk/src/common/pico_util/include/pico/util/datetime.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /usr/include/newlib/time.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/machine/time.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/time.h \
+  /usr/include/newlib/machine/_time.h \
+  /usr/include/newlib/stdio.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/include/newlib/sys/stdio.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/common/pico_util/pheap.c.o: /home/rosdev/pico-sdk/src/common/pico_util/pheap.c \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/stdlib.h \
+  /usr/include/newlib/machine/stdlib.h \
+  /usr/include/newlib/alloca.h \
+  /home/rosdev/pico-sdk/src/common/pico_util/include/pico/util/pheap.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/common/pico_util/queue.c.o: /home/rosdev/pico-sdk/src/common/pico_util/queue.c \
+  /usr/include/newlib/stdlib.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/stdlib.h \
+  /usr/include/newlib/alloca.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /home/rosdev/pico-sdk/src/common/pico_util/include/pico/util/queue.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2040/pico_platform/platform.c.o: /home/rosdev/pico-sdk/src/rp2040/pico_platform/platform.c \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /home/rosdev/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /home/rosdev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /home/rosdev/pico-sdk/src/rp2_common/hardware_flash/flash.c \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/rosdev/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_qspi.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ssi.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/ssi.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /home/rosdev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: /home/rosdev/pico-sdk/src/rp2_common/hardware_i2c/i2c.c \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /home/rosdev/pico-sdk/src/rp2_common/hardware_irq/irq.c \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/rosdev/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /home/rosdev/pico-sdk/src/rp2_common/hardware_pll/pll.c \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/sync.c \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/hardware_claim/include/hardware/claim.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /home/rosdev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/timer.c \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/hardware_claim/include/hardware/claim.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /home/rosdev/pico-sdk/src/rp2_common/hardware_uart/uart.c \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /home/rosdev/pico-sdk/src/rp2_common/hardware_vreg/vreg.c \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /home/rosdev/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/rosdev/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /home/rosdev/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xip.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xip.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /home/rosdev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_atomic/atomic.c \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdatomic.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sync.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/critical_section.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/rosdev/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /home/rosdev/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
+  /home/rosdev/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
+  /home/rosdev/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/rosdev/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/sys/stat.h \
+  /usr/include/newlib/time.h \
+  /usr/include/newlib/machine/time.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/time.h \
+  /usr/include/newlib/machine/_time.h \
+  /usr/include/newlib/sys/times.h \
+  /usr/include/newlib/unistd.h \
+  /usr/include/newlib/sys/unistd.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /home/rosdev/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp \
+  /usr/include/newlib/c++/10.3.1/cstdlib \
+  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
+  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
+  /usr/include/newlib/c++/10.3.1/pstl/pstl_config.h \
+  /usr/include/newlib/c++/10.3.1/stdlib.h \
+  /usr/include/newlib/stdlib.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/stdlib.h \
+  /usr/include/newlib/alloca.h \
+  /usr/include/newlib/c++/10.3.1/bits/std_abs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/c++/10.3.1/cassert \
+  /usr/include/newlib/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/rosdev/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_double/double_math.c \
+  /usr/include/newlib/math.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/_ansi.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_double/include/pico/double.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_flash/flash.c \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/rosdev/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_float/float_math.c \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_float/include/pico/float.h \
+  /usr/include/newlib/math.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_malloc/malloc.c \
+  /usr/include/newlib/stdlib.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/stdlib.h \
+  /usr/include/newlib/alloca.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/unistd.h \
+  /usr/include/newlib/sys/unistd.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_printf/printf.c \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/include/newlib/assert.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/float.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_runtime/runtime.c \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c \
+  /home/rosdev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/rosdev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /home/rosdev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2040/boot_stage2/include/boot_stage2/config.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/stdio.c \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/include/newlib/stdio.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/include/newlib/stdio.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/include/newlib/assert.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/rosdev/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
+  /home/rosdev/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_private.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/include/newlib/stdio.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/include/newlib/assert.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/rosdev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /home/rosdev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_private.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/include/newlib/stdio.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/include/newlib/assert.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/rosdev/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/rosdev/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
+  /home/rosdev/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c \
+  /home/rosdev/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/rosdev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /home/rosdev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h
+
+CMakeFiles/competition_pico.dir/home/rosdev/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /home/rosdev/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/rosdev/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
+
 CMakeFiles/competition_pico.dir/pico_uart_transport.c.o: ../pico_uart_transport.c \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/_ansi.h \
@@ -292,55 +3959,55 @@ CMakeFiles/competition_pico.dir/pico_uart_transport.c.o: ../pico_uart_transport.
   /usr/include/newlib/time.h \
   /usr/include/newlib/machine/time.h \
   /usr/include/newlib/sys/_locale.h \
-  _deps/pico_sdk-src/src/common/pico_stdlib_headers/include/pico/stdlib.h \
-  _deps/pico_sdk-src/src/common/pico_base_headers/include/pico.h \
-  _deps/pico_sdk-src/src/common/pico_base_headers/include/pico/types.h \
-  _deps/pico_sdk-src/src/common/pico_base_headers/include/pico/assert.h \
+  /home/rosdev/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  _deps/pico_sdk-src/src/common/pico_base_headers/include/pico/config.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  _deps/pico_sdk-src/src/boards/include/boards/pico.h \
-  _deps/pico_sdk-src/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  _deps/pico_sdk-src/src/rp2040/pico_platform/include/pico/platform.h \
-  _deps/pico_sdk-src/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  _deps/pico_sdk-src/src/common/pico_base_headers/include/pico/types.h \
-  _deps/pico_sdk-src/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  _deps/pico_sdk-src/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  _deps/pico_sdk-src/src/common/pico_base_headers/include/pico/error.h \
-  _deps/pico_sdk-src/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  _deps/pico_sdk-src/src/common/pico_time/include/pico/time.h \
-  _deps/pico_sdk-src/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  _deps/pico_sdk-src/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  _deps/pico_sdk-src/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  _deps/pico_sdk-src/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  _deps/pico_sdk-src/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  _deps/pico_sdk-src/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  _deps/pico_sdk-src/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  _deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/rosdev/pico-sdk/src/boards/include/boards/pico.h \
+  /home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/rosdev/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
   ../libmicroros/include/uxr/client/profile/transport/custom/custom_transport.h \
   ../libmicroros/include/uxr/client/core/communication/communication.h \
   ../libmicroros/include/uxr/client/config.h \
@@ -348,13 +4015,247 @@ CMakeFiles/competition_pico.dir/pico_uart_transport.c.o: ../pico_uart_transport.
   ../libmicroros/include/uxr/client/visibility.h
 
 
+../pico_uart_transport.c:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h:
+
+/home/rosdev/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_stdio/stdio.c:
+
+/home/rosdev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
+
+/home/rosdev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_malloc/malloc.c:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_float/include/pico/float.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_flash/flash.c:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
+
+/usr/include/newlib/c++/10.3.1/pstl/pstl_config.h:
+
+/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp:
+
+/usr/include/newlib/unistd.h:
+
+/usr/include/newlib/sys/times.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c:
+
+/home/rosdev/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
+
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdatomic.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xip.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_uart/uart.c:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_pll/pll.c:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_irq/irq.c:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/ssi.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ssi.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_qspi.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h:
+
+/home/rosdev/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_float/float_math.c:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c:
+
+/home/rosdev/pico-sdk/src/rp2040/pico_platform/platform.c:
+
+/home/rosdev/pico-sdk/src/common/pico_util/queue.c:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h:
+
+/home/rosdev/pico-sdk/src/common/pico_util/include/pico/util/pheap.h:
+
+/usr/include/newlib/machine/_time.h:
+
 /usr/include/newlib/machine/time.h:
 
+/usr/include/newlib/time.h:
+
+/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h:
+
+/home/rosdev/pico-sdk/src/common/pico_util/include/pico/util/datetime.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c:
+
+/home/rosdev/pico-sdk/src/common/pico_time/timeout_helper.c:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h:
+
+/home/rosdev/pico-sdk/src/common/pico_sync/mutex.c:
+
+/home/rosdev/pico-sdk/src/common/pico_sync/lock_core.c:
+
+/home/rosdev/pico-sdk/src/common/pico_sync/critical_section.c:
+
+/home/rosdev/pico-sdk/src/common/pico_time/time.c:
+
+/home/rosdev/pico-sdk/src/common/hardware_claim/include/hardware/claim.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/tusb.c:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd_control.c:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/device/dcd.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd.c:
+
+/usr/include/newlib/sys/unistd.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_printf/printf.c:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c:
+
+/home/rosdev/pico-sdk/src/common/pico_util/datetime.c:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h:
+
+/home/rosdev/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
+
+/home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sem.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal_pico.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/osal/osal.h:
+
+/home/rosdev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_atomic/atomic.c:
+
+/usr/include/newlib/sys/_intsup.h:
+
+/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/device/usbd.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c:
+
+/home/rosdev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h:
+
 ../libmicroros/include/rmw/events_statuses/liveliness_lost.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c:
 
 ../libmicroros/include/rcl/visibility_control.h:
 
 ../libmicroros/include/rmw/events_statuses/liveliness_changed.h:
+
+/home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h:
+
+../libmicroros/include/rmw/qos_policy_kind.h:
 
 ../libmicroros/include/rmw/events_statuses/incompatible_qos.h:
 
@@ -364,13 +4265,21 @@ generated/pico_base/pico/config_autogen.h:
 
 ../libmicroros/include/rcutils/types/char_array.h:
 
+/home/rosdev/pico-sdk/src/common/pico_sync/sem.c:
+
 ../libmicroros/include/rmw/publisher_options.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c:
 
 ../libmicroros/include/rcutils/types/array_list.h:
 
 /usr/include/newlib/sys/string.h:
 
+../libmicroros/include/rmw/visibility_control.h:
+
 /usr/include/newlib/strings.h:
+
+/home/rosdev/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h:
 
 ../libmicroros/include/rosidl_runtime_c/service_type_support_struct.h:
 
@@ -380,25 +4289,27 @@ generated/pico_base/pico/config_autogen.h:
 
 ../libmicroros/include/rcl/macros.h:
 
-_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h:
+/usr/include/newlib/sys/_locale.h:
 
-/usr/include/newlib/sys/reent.h:
+/home/rosdev/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h:
 
-../libmicroros/include/rmw/types.h:
+/home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/types.h:
 
 ../libmicroros/include/rmw/security_options.h:
 
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h:
+
 ../libmicroros/include/uxr/client/core/communication/communication.h:
+
+/usr/include/newlib/sys/stat.h:
 
 ../libmicroros/include/rmw/init.h:
 
 ../libmicroros/include/rclc/sleep.h:
 
-../libmicroros/include/rcutils/configuration_flags.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/float.h:
 
-../libmicroros/include/rcutils/types/rcutils_ret.h:
-
-../libmicroros/include/rcutils/macros.h:
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h:
 
 ../libmicroros/include/rcl/allocator.h:
 
@@ -406,113 +4317,121 @@ _deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h:
 
 ../libmicroros/include/rclc/client.h:
 
-../libmicroros/include/rmw/ret_types.h:
+/usr/include/newlib/sys/reent.h:
 
-_deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/i2c.h:
+/home/rosdev/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h:
 
-../libmicroros/include/rmw/events_statuses/events_statuses.h:
+/home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h:
 
-_deps/pico_sdk-src/src/rp2_common/hardware_irq/include/hardware/irq.h:
+/usr/include/newlib/string.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
+
+/home/rosdev/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h:
 
 /usr/include/newlib/machine/stdlib.h:
 
 /usr/include/newlib/sys/_stdint.h:
 
-_deps/pico_sdk-src/src/rp2_common/hardware_i2c/include/hardware/i2c.h:
+../libmicroros/include/rmw/events_statuses/events_statuses.h:
 
-/usr/include/newlib/string.h:
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
 
-_deps/pico_sdk-src/src/common/pico_base_headers/include/pico/config.h:
+../libmicroros/include/rmw_microros/ping.h:
 
-../libmicroros/include/uxr/client/config.h:
+../libmicroros/include/rmw/ret_types.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
+
+../libmicroros/include/rcutils/types/rcutils_ret.h:
 
 ../libmicroros/include/rcl/init_options.h:
 
-_deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h:
 
-../libmicroros/include/rcutils/types/string_array.h:
+../libmicroros/include/sensor_msgs/msg/imu.h:
 
-_deps/pico_sdk-src/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h:
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h:
 
-/usr/include/newlib/alloca.h:
+/usr/include/newlib/c++/10.3.1/cassert:
 
-../libmicroros/include/rclc/publisher.h:
+../libmicroros/include/unique_identifier_msgs/msg/detail/uuid__struct.h:
 
-../libmicroros/include/rmw/qos_policy_kind.h:
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h:
 
-../libmicroros/include/rmw/time.h:
-
-_deps/pico_sdk-src/src/rp2_common/hardware_uart/include/hardware/uart.h:
-
-../libmicroros/include/sensor_msgs/msg/detail/imu__functions.h:
-
-../libmicroros/include/rcl/event_callback.h:
-
-_deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
-
-/usr/include/newlib/sys/timespec.h:
-
-_deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/nvic.h:
-
-_deps/pico_sdk-src/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
-
-_deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
-
-_deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h:
-
-../libmicroros/include/rcutils/logging.h:
-
-/usr/include/newlib/sys/select.h:
-
-../libmicroros/include/rcl/wait.h:
-
-/usr/include/newlib/time.h:
-
-/usr/include/newlib/machine/_endian.h:
-
-../libmicroros/include/rcutils/testing/fault_injection.h:
-
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
-
-../libmicroros/include/rcutils/qsort.h:
-
-generated/pico_base/pico/version.h:
-
-../libmicroros/include/action_msgs/msg/detail/goal_status__struct.h:
+/usr/include/newlib/c++/10.3.1/cstdlib:
 
 /usr/include/newlib/machine/endian.h:
 
-_deps/pico_sdk-src/src/common/pico_base_headers/include/pico/types.h:
+../libmicroros/include/action_msgs/msg/detail/goal_info__struct.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
 
 ../libmicroros/include/action_msgs/msg/goal_status.h:
 
-/usr/include/newlib/sys/_pthreadtypes.h:
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
+
+../libmicroros/include/rmw/init_options.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h:
+
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
 
 /usr/include/newlib/machine/types.h:
 
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h:
+
 ../libmicroros/include/action_msgs/srv/cancel_goal.h:
 
-../libmicroros/include/rmw/visibility_control.h:
+/usr/include/newlib/sys/types.h:
 
-_deps/pico_sdk-src/src/common/pico_time/include/pico/time.h:
+../libmicroros/include/rcl_action/default_qos.h:
 
-../libmicroros/include/rcl/types.h:
+generated/pico_base/pico/version.h:
 
-../libmicroros/include/rosidl_runtime_c/primitives_sequence.h:
+/home/rosdev/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h:
 
-/usr/include/newlib/sys/_timespec.h:
+../libmicroros/include/action_msgs/msg/detail/goal_status__struct.h:
 
-_deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/i2c.h:
+/usr/include/newlib/sys/timespec.h:
 
-_deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
+../libmicroros/include/rcutils/logging.h:
 
-../libmicroros/include/rclc/init.h:
+/home/rosdev/pico-sdk/src/rp2_common/pico_double/double_math.c:
+
+/usr/include/newlib/sys/select.h:
+
+/usr/include/newlib/inttypes.h:
+
+../libmicroros/include/rcl/wait.h:
+
+/home/rosdev/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h:
+
+/home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/assert.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c:
+
+/usr/include/newlib/sys/_pthreadtypes.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
+
+../libmicroros/include/builtin_interfaces/msg/detail/time__struct.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c:
 
 ../libmicroros/include/rcl_action/rcl_action.h:
 
 ../libmicroros/include/rclc/timer.h:
 
-../libmicroros/include/action_msgs/msg/detail/goal_status_array__struct.h:
+/home/rosdev/pico-sdk/src/common/pico_time/include/pico/time.h:
 
 ../libmicroros/include/rmw/macros.h:
 
@@ -520,119 +4439,187 @@ _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
 
 /usr/include/newlib/sys/_types.h:
 
-../competition_pico.c:
+/home/rosdev/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
 
-../libmicroros/include/rcutils/snprintf.h:
+/home/rosdev/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h:
 
-../libmicroros/include/rcl/event.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
 
-/usr/include/newlib/stdio.h:
+../libmicroros/include/rcutils/testing/fault_injection.h:
 
-/usr/include/newlib/sys/config.h:
+/usr/include/newlib/machine/_endian.h:
 
-/usr/include/newlib/sys/_locale.h:
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xip.h:
 
-/usr/include/newlib/sys/_sigset.h:
+/home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/error.h:
 
-_deps/pico_sdk-src/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h:
+/home/rosdev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c:
 
-_deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
+/home/rosdev/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
 
-_deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
+../libmicroros/include/rclc/executor.h:
 
-../pico_uart_transport.h:
-
-/usr/include/newlib/machine/_default_types.h:
-
-/usr/include/newlib/sys/cdefs.h:
-
-../libmicroros/include/rcl/context.h:
+/home/rosdev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c:
 
 ../libmicroros/include/std_msgs/msg/detail/float32__struct.h:
 
 ../libmicroros/include/std_msgs/msg/detail/float32__functions.h:
 
-_deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
+../libmicroros/include/rcutils/macros.h:
 
-../libmicroros/include/sensor_msgs/msg/detail/joy__functions.h:
-
-_deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/timer.h:
-
-../libmicroros/include/rmw/init_options.h:
-
-../libmicroros/include/sensor_msgs/msg/rosidl_generator_c__visibility_control.h:
-
-../libmicroros/include/rmw/qos_profiles.h:
-
-/usr/include/newlib/sys/_timeval.h:
-
-../libmicroros/include/rcl/node.h:
-
-../libmicroros/include/rmw/names_and_types.h:
-
-../libmicroros/include/rcl/rcl.h:
-
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
-
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
-
-../libmicroros/include/rclc/executor.h:
-
-_deps/pico_sdk-src/src/rp2_common/hardware_resets/include/hardware/resets.h:
-
-/usr/include/newlib/_newlib_version.h:
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
 
 ../libmicroros/include/rmw/domain_id.h:
 
 /usr/include/newlib/newlib.h:
 
-../libmicroros/include/action_msgs/msg/detail/goal_info__struct.h:
+/usr/include/newlib/_newlib_version.h:
 
-_deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h:
+/home/rosdev/pico-sdk/lib/tinyusb/src/class/video/video_device.c:
 
-_deps/pico_sdk-src/src/common/pico_base_headers/include/pico/assert.h:
+../libmicroros/include/rmw/types.h:
 
-_deps/pico_sdk-src/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
+/home/rosdev/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h:
 
-/usr/include/newlib/assert.h:
+../libmicroros/include/rcutils/snprintf.h:
 
-/usr/include/newlib/stdlib.h:
+../libmicroros/include/rcl/event.h:
 
-../libmicroros/include/action_msgs/msg/detail/goal_status__functions.h:
+/home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_types.h:
 
-/usr/include/newlib/sys/lock.h:
+/usr/include/newlib/stdio.h:
 
-../libmicroros/include/rcl/graph.h:
+../libmicroros/include/rcl/context.h:
 
-../libmicroros/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h:
+/usr/include/newlib/sys/cdefs.h:
 
-../libmicroros/include/uxr/client/profile/transport/custom/custom_transport.h:
+../pico_uart_transport.h:
 
-_deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
+/usr/include/newlib/c++/10.3.1/bits/std_abs.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
+
+/usr/include/newlib/machine/_default_types.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c:
+
+../competition_pico.c:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
+
+/usr/include/newlib/sys/_timeval.h:
+
+../libmicroros/include/rcl/node.h:
+
+/usr/include/newlib/sys/time.h:
+
+../libmicroros/include/rcl/rcl.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_private.h:
+
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
+
+/home/rosdev/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h:
+
+../libmicroros/include/rcl/types.h:
+
+../libmicroros/include/rosidl_runtime_c/primitives_sequence.h:
+
+/usr/include/newlib/sys/_timespec.h:
+
+/home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico.h:
 
 ../libmicroros/include/rmw_microros/continous_serialization.h:
 
 ../libmicroros/include/rcutils/time.h:
 
-_deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
-
 ../libmicroros/include/rmw_microros/init_options.h:
 
-_deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h:
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h:
 
-_deps/pico_sdk-src/src/rp2040/pico_platform/include/pico/platform.h:
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h:
 
-_deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
+../libmicroros/include/action_msgs/msg/rosidl_generator_c__visibility_control.h:
 
-_deps/pico_sdk-src/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
 
-/usr/include/newlib/sys/types.h:
+/usr/include/newlib/sys/config.h:
 
-../libmicroros/include/rcl_action/default_qos.h:
+/home/rosdev/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
 
-_deps/pico_sdk-src/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
+../libmicroros/include/rosidl_runtime_c/message_type_support_struct.h:
 
-_deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
+../libmicroros/include/std_msgs/msg/detail/int32__struct.h:
+
+/usr/include/newlib/stdlib.h:
+
+../libmicroros/include/rmw/names_and_types.h:
+
+/home/rosdev/pico-sdk/src/boards/include/boards/pico.h:
+
+../libmicroros/include/sensor_msgs/msg/joy.h:
+
+../libmicroros/include/rcl/time.h:
+
+/usr/include/newlib/c++/10.3.1/stdlib.h:
+
+/usr/include/newlib/assert.h:
+
+../libmicroros/include/rcutils/configuration_flags.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c:
+
+../libmicroros/include/rmw_microros/time_sync.h:
+
+../libmicroros/include/rcl_action/goal_state_machine.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
+
+../libmicroros/include/rcutils/types/string_array.h:
+
+/usr/include/newlib/alloca.h:
+
+../libmicroros/include/rclc/publisher.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c:
+
+../libmicroros/include/rcutils/qsort.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_timer/timer.c:
+
+../libmicroros/include/sensor_msgs/msg/detail/imu__functions.h:
+
+/usr/include/newlib/sys/_sigset.h:
+
+/home/rosdev/pico-sdk/src/common/pico_util/pheap.c:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/tusb.h:
+
+../libmicroros/include/rcl/node_options.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_sync/sync.c:
+
+../libmicroros/include/action_msgs/srv/detail/cancel_goal__type_support.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
 
 ../libmicroros/include/rmw/events_statuses/message_lost.h:
 
@@ -642,9 +4629,11 @@ _deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
 
 ../libmicroros/include/rmw/events_statuses/requested_deadline_missed.h:
 
-_deps/pico_sdk-src/src/common/pico_base_headers/include/pico/error.h:
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h:
 
 ../libmicroros/include/geometry_msgs/msg/detail/vector3__struct.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_vreg/vreg.c:
 
 ../libmicroros/include/rmw/serialized_message.h:
 
@@ -652,9 +4641,7 @@ _deps/pico_sdk-src/src/common/pico_base_headers/include/pico/error.h:
 
 ../libmicroros/include/rmw/subscription_content_filter_options.h:
 
-../libmicroros/include/rcl/node_options.h:
-
-../libmicroros/include/action_msgs/srv/detail/cancel_goal__type_support.h:
+../libmicroros/include/rmw/time.h:
 
 ../libmicroros/include/rcutils/visibility_control.h:
 
@@ -664,21 +4651,21 @@ _deps/pico_sdk-src/src/common/pico_base_headers/include/pico/error.h:
 
 ../libmicroros/include/rcl/publisher.h:
 
-../libmicroros/include/rosidl_runtime_c/message_type_support_struct.h:
-
-../libmicroros/include/std_msgs/msg/detail/int32__struct.h:
-
 ../libmicroros/include/rosidl_runtime_c/visibility_control.h:
 
 ../libmicroros/include/rosidl_typesupport_interface/macros.h:
 
-../libmicroros/include/sensor_msgs/msg/joy.h:
-
-../libmicroros/include/rcl/time.h:
-
 ../libmicroros/include/rcl/subscription.h:
 
 ../libmicroros/include/std_msgs/msg/detail/float32__type_support.h:
+
+../libmicroros/include/rcl/event_callback.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_common.h:
+
+../libmicroros/include/rmw/qos_profiles.h:
+
+../libmicroros/include/sensor_msgs/msg/rosidl_generator_c__visibility_control.h:
 
 ../libmicroros/include/rcl/guard_condition.h:
 
@@ -686,13 +4673,27 @@ _deps/pico_sdk-src/src/common/pico_base_headers/include/pico/error.h:
 
 ../libmicroros/include/rmw/message_sequence.h:
 
+/home/rosdev/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h:
+
 ../libmicroros/include/rcl/client.h:
 
+/home/rosdev/pico-sdk/src/rp2_common/hardware_flash/flash.c:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h:
+
+/home/rosdev/pico-sdk/src/common/pico_sync/include/pico/sync.h:
+
 ../libmicroros/include/rcl/service.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c:
+
+/home/rosdev/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
 
 ../libmicroros/include/rcl_action/graph.h:
 
 ../libmicroros/include/ucdr/visibility.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c:
 
 ../libmicroros/include/rcl/timer.h:
 
@@ -706,6 +4707,8 @@ _deps/pico_sdk-src/src/common/pico_base_headers/include/pico/error.h:
 
 ../libmicroros/include/rmw/event.h:
 
+/home/rosdev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
+
 ../libmicroros/include/ucdr/microcdr.h:
 
 ../libmicroros/include/rmw/subscription_options.h:
@@ -717,6 +4720,12 @@ _deps/pico_sdk-src/src/common/pico_base_headers/include/pico/error.h:
 ../libmicroros/include/rmw/event_callback_type.h:
 
 ../libmicroros/include/rclc/rclc.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
+
+../libmicroros/include/rclc/init.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h:
 
 ../libmicroros/include/rclc/types.h:
 
@@ -732,11 +4741,7 @@ _deps/pico_sdk-src/src/common/pico_base_headers/include/pico/error.h:
 
 ../libmicroros/include/rclc/action_client.h:
 
-_deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h:
-
 ../libmicroros/include/rcl_action/action_client.h:
-
-_deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
 
 ../libmicroros/include/rcl_action/types.h:
 
@@ -748,19 +4753,27 @@ _deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
 
 ../libmicroros/include/rclc/action_server.h:
 
-../libmicroros/include/unique_identifier_msgs/msg/detail/uuid__struct.h:
-
-../libmicroros/include/builtin_interfaces/msg/detail/time__struct.h:
-
 ../libmicroros/include/action_msgs/msg/detail/goal_info__functions.h:
 
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
-
-../libmicroros/include/action_msgs/msg/rosidl_generator_c__visibility_control.h:
+/home/rosdev/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
 
 ../libmicroros/include/action_msgs/msg/detail/goal_info__type_support.h:
 
-_deps/pico_sdk-src/src/common/pico_stdlib_headers/include/pico/stdlib.h:
+/home/rosdev/pico-sdk/src/rp2_common/hardware_i2c/i2c.c:
+
+../libmicroros/include/action_msgs/msg/detail/goal_status__functions.h:
+
+/usr/include/newlib/sys/lock.h:
+
+../libmicroros/include/rcl/graph.h:
+
+../libmicroros/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h:
+
+../libmicroros/include/uxr/client/profile/transport/custom/custom_transport.h:
+
+/home/rosdev/pico-sdk/src/rp2040/boot_stage2/include/boot_stage2/config.h:
+
+/home/rosdev/pico-sdk/src/common/hardware_claim/claim.c:
 
 ../libmicroros/include/action_msgs/msg/detail/goal_status__type_support.h:
 
@@ -768,29 +4781,23 @@ _deps/pico_sdk-src/src/common/pico_stdlib_headers/include/pico/stdlib.h:
 
 ../libmicroros/include/action_msgs/msg/goal_status_array.h:
 
-_deps/pico_sdk-src/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h:
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h:
+
+../libmicroros/include/action_msgs/msg/detail/goal_status_array__struct.h:
+
+/home/rosdev/pico-sdk/src/common/pico_base_headers/include/pico/config.h:
 
 ../libmicroros/include/action_msgs/msg/detail/goal_status_array__functions.h:
 
 ../libmicroros/include/action_msgs/msg/detail/goal_status_array__type_support.h:
 
-_deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
-
 ../libmicroros/include/action_msgs/srv/detail/cancel_goal__struct.h:
 
 ../libmicroros/include/action_msgs/srv/detail/cancel_goal__functions.h:
 
-/usr/include/newlib/math.h:
-
-../libmicroros/include/rosidl_runtime_c/action_type_support_struct.h:
-
-_deps/pico_sdk-src/src/common/pico_base_headers/include/pico.h:
+/home/rosdev/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c:
 
 ../libmicroros/include/rcl_action/goal_handle.h:
-
-../libmicroros/include/rmw_microros/time_sync.h:
-
-../libmicroros/include/rcl_action/goal_state_machine.h:
 
 ../libmicroros/include/rmw/topic_endpoint_info_array.h:
 
@@ -798,11 +4805,7 @@ _deps/pico_sdk-src/src/common/pico_base_headers/include/pico.h:
 
 ../libmicroros/include/rmw/topic_endpoint_info.h:
 
-_deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h:
-
 ../libmicroros/include/rclc/action_goal_handle.h:
-
-_deps/pico_sdk-src/src/rp2_common/pico_stdio/include/pico/stdio.h:
 
 ../libmicroros/include/rclc/executor_handle.h:
 
@@ -812,19 +4815,37 @@ _deps/pico_sdk-src/src/rp2_common/pico_stdio/include/pico/stdio.h:
 
 ../libmicroros/include/std_msgs/msg/float32.h:
 
+/home/rosdev/pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h:
+
 ../libmicroros/include/std_msgs/msg/rosidl_generator_c__visibility_control.h:
 
 ../libmicroros/include/rmw_microros/rmw_microros.h:
 
+/home/rosdev/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_debug.h:
+
 ../libmicroros/include/rmw_microxrcedds_c/config.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
+
+/home/rosdev/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h:
+
+../libmicroros/include/uxr/client/config.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h:
 
 ../libmicroros/include/ucdr/config.h:
 
+/home/rosdev/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h:
+
 ../libmicroros/include/rcutils/types.h:
 
-_deps/pico_sdk-src/src/rp2_common/hardware_timer/include/hardware/timer.h:
+/home/rosdev/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
 
 ../libmicroros/include/std_msgs/msg/detail/header__struct.h:
+
+/home/rosdev/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h:
 
 ../libmicroros/include/uxr/client/util/time.h:
 
@@ -834,32 +4855,40 @@ _deps/pico_sdk-src/src/rp2_common/hardware_timer/include/hardware/timer.h:
 
 ../libmicroros/include/uxr/client/visibility.h:
 
-../libmicroros/include/rmw_microros/ping.h:
+/home/rosdev/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h:
 
 ../libmicroros/include/rmw_microros/timing.h:
 
+/home/rosdev/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h:
+
 /usr/include/newlib/sys/sched.h:
 
-_deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
-
 ../libmicroros/include/sensor_msgs/msg/detail/joy__type_support.h:
+
+/home/rosdev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h:
 
 ../libmicroros/include/rcutils/error_handling.h:
 
 ../libmicroros/include/rmw_microros/custom_transport.h:
 
-_deps/pico_sdk-src/src/boards/include/boards/pico.h:
-
 ../libmicroros/include/std_msgs/msg/int32.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/common/tusb_verify.h:
 
 ../libmicroros/include/std_msgs/msg/detail/int32__functions.h:
 
-../libmicroros/include/rosidl_runtime_c/string.h:
+/home/rosdev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
 
-../libmicroros/include/sensor_msgs/msg/imu.h:
+../libmicroros/include/rosidl_runtime_c/string.h:
 
 ../libmicroros/include/sensor_msgs/msg/detail/imu__type_support.h:
 
 ../libmicroros/include/sensor_msgs/msg/detail/joy__struct.h:
 
-../pico_uart_transport.c:
+../libmicroros/include/sensor_msgs/msg/detail/joy__functions.h:
+
+../libmicroros/include/rosidl_runtime_c/action_type_support_struct.h:
+
+/usr/include/newlib/math.h:
+
+/home/rosdev/pico-sdk/lib/tinyusb/src/tusb_option.h:
