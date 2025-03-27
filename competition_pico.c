@@ -50,6 +50,7 @@ This HAS NOT been tested and there is a good chance this does not work yet.
 
 This file has also included things for the pico. It is an attempted merge file. 
 */
+static void read_raw(int16_t accel[3], int16_t gyro[3], int16_t *temp);
 
 // Ports and pins
 #define I2C_PORT i2c0
@@ -304,8 +305,6 @@ int main() {
         return -1;
     }
 
-    allocator = rcl_get_default_allocator();
-    rclc_support_init(&support, 0, NULL, &allocator);
 
     rclc_publisher_init_default(
         &imu_publisher,
@@ -318,7 +317,7 @@ int main() {
     rclc_timer_init_default(&imu_timer,&support,RCL_MS_TO_NS(timer_timeout),timer_callback_imu);
     rclc_executor_add_timer(&executor, &imu_timer);
 
-    memset(&msg, 0, sizeof(sensor_msgs__msg__Imu));
+    memset(&imu_msg, 0, sizeof(sensor_msgs__msg__Imu));
 
     while (true) {
         rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100));
@@ -415,7 +414,6 @@ static void read_raw(int16_t accel[3], int16_t gyro[3], int16_t *temp)
 //     if (ret != RCL_RET_OK) {
 //         return;
 //     }
-// }
 
 
 
