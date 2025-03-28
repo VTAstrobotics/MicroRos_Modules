@@ -19,8 +19,8 @@
 #include <math.h>
 
 
-#define I2C_SDA_PIN 11 //16
-#define I2C_SCL_PIN 13 //17
+#define I2C_SDA_PIN 4 //16
+#define I2C_SCL_PIN 5 //17
 #define I2C_PORT i2c0
 #define timeout 1000
 
@@ -52,10 +52,15 @@ This file has also included things for the pico. It is an attempted merge file.
 */
 static void read_raw(int16_t accel[3], int16_t gyro[3], int16_t *temp);
 
+struct fx_29_sensor{
+    int I2C_Address;
+}
+typedef fx_29_sensor FX29;
+
 // Ports and pins
 #define I2C_PORT i2c0
-#define SDA_PIN 5
-#define SCL_PIN 4
+#define SDA_PIN 4
+#define SCL_PIN 5
 #define FX29_I2C_ADDR 0x28  // Default FX29 I2C address
 #define FX29_MAX_COUNTS 15000.0f  // Maximum digital counts from datasheet
 #define FX29_MAX_LBF 200.0f  // Maximum force in pounds (adjust based on sensor range)
@@ -143,9 +148,16 @@ void fill_message(sensor_msgs__msg__Imu *msg)
     msg->linear_acceleration.x = ax;
     msg->linear_acceleration.y = ay;
     msg->linear_acceleration.z = az;
+
+    
     //TODO
 
     uint32_t current_time = to_ms_since_boot(get_absolute_time());
+    uint32_t sec = current_time / 1000;
+    uint32_t nanosec = (current_time % 1000) * 1000000;
+    msg->header.stamp.sec = sec;
+    msg->header.stamp.nanosec = nanosec;
+    msg->header.stamp.sec = current_time/1000.0;
     static uint32_t previous_time = 0; //static so doesn't get reassigned every time
     if (previous_time == 0) {
         previous_time = current_time;
@@ -234,7 +246,7 @@ static void timer_callback_imu(rcl_timer_t *timer, int64_t last_call_time)
 
     fill_message(&imu_msg);
 
-    rcl_ret_t ret = rcl_publish(&imu_publisher, &msg, NULL);
+    rcl_ret_t ret = rcl_publish(&imu_publisher, &imu_msg, NULL);
     if (ret != RCL_RET_OK) {
         return;
     }
@@ -313,7 +325,7 @@ int main() {
         "imu/data"
     );
 
-    const unsigned int timer_timeout = 50; // ms
+    const unsigned int timer_timeout = 10; // ms
     rclc_timer_init_default(&imu_timer,&support,RCL_MS_TO_NS(timer_timeout),timer_callback_imu);
     rclc_executor_add_timer(&executor, &imu_timer);
 
