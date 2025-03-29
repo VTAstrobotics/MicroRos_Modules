@@ -19,9 +19,9 @@
 #include <math.h>
 
 
-#define I2C_SDA_PIN 4 //16
-#define I2C_SCL_PIN 5 //17
-#define I2C_PORT i2c0
+#define IMU_SDA_PIN 4 //16
+#define IMU_SCL_PIN 5 //17
+#define IMU_PORT i2c0
 #define timeout 1000
 
 
@@ -54,13 +54,13 @@ static void read_raw(int16_t accel[3], int16_t gyro[3], int16_t *temp);
 
 struct fx_29_sensor{
     int I2C_Address;
-}
-typedef fx_29_sensor FX29;
+};
+typedef struct fx_29_sensor FX29;
 
 // Ports and pins
-#define I2C_PORT i2c0
-#define SDA_PIN 4
-#define SCL_PIN 5
+#define FX_29_I2C_PORT i2c1
+#define FX_29_SDA_PIN 18
+#define FX_29_SCL_PIN 19
 #define FX29_I2C_ADDR 0x28  // Default FX29 I2C address
 #define FX29_MAX_COUNTS 15000.0f  // Maximum digital counts from datasheet
 #define FX29_MAX_LBF 200.0f  // Maximum force in pounds (adjust based on sensor range)
@@ -201,12 +201,12 @@ void fill_message(sensor_msgs__msg__Imu *msg)
 
 void fx29_init() {
 
-    // Initialization functions
-    i2c_init(I2C_PORT, 100 * 1000);
-    gpio_set_function(SDA_PIN, GPIO_FUNC_I2C);
-    gpio_set_function(SCL_PIN, GPIO_FUNC_I2C);
-    gpio_pull_up(SDA_PIN);
-    gpio_pull_up(SCL_PIN);
+    i2c_init(i2c1, 100000);
+    gpio_set_function(FX_29_SDA_PIN, GPIO_FUNC_I2C);
+    gpio_set_function(FX_29_SCL_PIN, GPIO_FUNC_I2C);
+    gpio_pull_up(FX_29_SDA_PIN);
+    gpio_pull_up(FX_29_SCL_PIN);
+    sleep_ms(1000); // Allow device to reset and stabilize
 }
 
 
@@ -214,10 +214,11 @@ int fx29_read_force_raw() {
 
     // Address reading
     uint8_t buf[2];
-    i2c_write_timeout_us(i2c0, FX29_I2C_ADDR, 0x00, 3, true, 100000 );
+    uint8_t reg = 0x00;
+    i2c_write_timeout_us(i2c1, FX29_I2C_ADDR, 0x00, 2, true, 10000000 );
     buf[0] = 0;
     buf[1] = 0;
-    i2c_read_timeout_us(i2c0, FX29_I2C_ADDR, buf, 2, false, 100000);
+    i2c_read_timeout_us(i2c1, FX29_I2C_ADDR, buf, 2, false, 10000000);
     int force = ((buf[0] & 0x3F ) << 8) | (buf[1] << 0);
     return force;
 }
@@ -226,7 +227,7 @@ float fx29_convert_to_lbf(int raw_force) {
 
     // Convertion based on data sheet values
     // https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=FX29&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=20009605-23
-    return raw_force;
+    // return raw_force;
     return (raw_force / FX29_MAX_COUNTS) * FX29_MAX_LBF;
 
 }
@@ -255,7 +256,6 @@ static void timer_callback_imu(rcl_timer_t *timer, int64_t last_call_time)
 int main() {
 
     stdio_init_all();
-    fx29_init();
  
     rmw_uros_set_custom_transport(
         true, NULL, pico_serial_transport_open,
@@ -283,28 +283,19 @@ int main() {
         "fx29_force"
     );
  
-    rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(500), timer_callback);
-    rclc_executor_init(&executor, &support.context, 2, &allocator);
+    rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(1000), timer_callback);
+    rclc_executor_init(&executor, &support.context, 4, &allocator);
     rclc_executor_add_timer(&executor, &timer);
 
     //second file, IMU things in main
 
-    rmw_uros_set_custom_transport(
-        true,
-        NULL,
-        pico_serial_transport_open,
-        pico_serial_transport_close,
-        pico_serial_transport_write,
-        pico_serial_transport_read
-    );
 
-
-    stdio_init_all();
-    i2c_init(i2c_default, 400 * 1000);
-    gpio_set_function(PICO_DEFAULT_I2C_SDA_PIN, GPIO_FUNC_I2C);
-    gpio_set_function(PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C);
-    gpio_pull_up(PICO_DEFAULT_I2C_SDA_PIN);
-    gpio_pull_up(PICO_DEFAULT_I2C_SCL_PIN);
+    i2c_init(IMU_PORT, 400 * 1000);
+    gpio_set_function(IMU_SDA_PIN, GPIO_FUNC_I2C);
+    gpio_set_function(IMU_SCL_PIN, GPIO_FUNC_I2C);
+    gpio_pull_up(IMU_SDA_PIN);
+    gpio_pull_up(IMU_SCL_PIN);
+    fx29_init();
     // Make the I2C pins available to picotool
 
 
@@ -345,20 +336,20 @@ int main() {
  * second file, IMU things
  */
 
-static void i2c_write_byte(uint8_t dev_addr, uint8_t reg_addr, uint8_t data)
-{
-    uint8_t buf[2];
-    buf[0] = reg_addr;
-    buf[1] = data;
-    i2c_write_timeout_us(I2C_PORT, dev_addr, buf, 2, false, timeout);
-}
+// static void i2c_write_byte(uint8_t dev_addr, uint8_t reg_addr, uint8_t data)
+// {
+//     uint8_t buf[2];
+//     buf[0] = reg_addr;
+//     buf[1] = data;
+//     i2c_write_timeout_us(I2C_PORT, dev_addr, buf, 2, false, timeout);
+// }
 
 
-static void i2c_read_bytes(uint8_t dev_addr, uint8_t reg_addr, uint8_t *data, size_t len)
-{
-    i2c_write_timeout_us(I2C_PORT, dev_addr, &reg_addr, 1, true, timeout);
-    i2c_read_timeout_us(I2C_PORT, dev_addr, data, len, false, timeout);
-}
+// static void i2c_read_bytes(uint8_t dev_addr, uint8_t reg_addr, uint8_t *data, size_t len)
+// {
+//     i2c_write_timeout_us(I2C_PORT, dev_addr, &reg_addr, 1, true, timeout);
+//     i2c_read_timeout_us(I2C_PORT, dev_addr, data, len, false, timeout);
+// }
 
 
 static void setup(void)
@@ -384,6 +375,12 @@ static void read_raw(int16_t accel[3], int16_t gyro[3], int16_t *temp)
     // so we don't need to keep sending the register we want, just the first.
 
     uint8_t buffer[6];
+    buffer[0] = 0;
+    buffer[1] = 0;
+    buffer[2] = 0;
+    buffer[3] = 0;
+    buffer[4] = 0;
+    buffer[5] = 0;
 
     // Start reading acceleration registers from register 0x3B for 6 bytes
     uint8_t val = 0x3B;
