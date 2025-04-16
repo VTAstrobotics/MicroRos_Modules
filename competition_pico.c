@@ -22,7 +22,7 @@
 #define IMU_SDA_PIN 4 //16
 #define IMU_SCL_PIN 5 //17
 #define IMU_PORT i2c0
-#define timeout 1000
+#define timeout 10000
 
 
 #define MPU6050_ADDRESS           0x68
@@ -59,8 +59,8 @@ typedef struct fx_29_sensor FX29;
 
 // Ports and pins
 #define FX_29_I2C_PORT i2c1
-#define FX_29_SDA_PIN 18
-#define FX_29_SCL_PIN 19
+#define FX_29_SDA_PIN 2
+#define FX_29_SCL_PIN 3
 #define FX29_I2C_ADDR 0x28  // Default FX29 I2C address
 #define FX29_MAX_COUNTS 15000.0f  // Maximum digital counts from datasheet
 #define FX29_MAX_LBF 200.0f  // Maximum force in pounds (adjust based on sensor range)
@@ -201,12 +201,13 @@ void fill_message(sensor_msgs__msg__Imu *msg)
 
 void fx29_init() {
 
-    i2c_init(i2c1, 100000);
+    i2c_init(i2c1, 1000 * 100);
     gpio_set_function(FX_29_SDA_PIN, GPIO_FUNC_I2C);
     gpio_set_function(FX_29_SCL_PIN, GPIO_FUNC_I2C);
     gpio_pull_up(FX_29_SDA_PIN);
     gpio_pull_up(FX_29_SCL_PIN);
     sleep_ms(1000); // Allow device to reset and stabilize
+    i2c_write_timeout_us(i2c1, FX29_I2C_ADDR, 0x55, 1, true, 100000 );
 }
 
 
@@ -214,12 +215,17 @@ int fx29_read_force_raw() {
 
     // Address reading
     uint8_t buf[2];
-    uint8_t reg = 0x00;
-    i2c_write_timeout_us(i2c1, FX29_I2C_ADDR, 0x00, 2, true, 10000000 );
+    i2c_write_timeout_us(i2c1, FX29_I2C_ADDR, 0x04, 1, true, 100000 );
     buf[0] = 0;
     buf[1] = 0;
-    i2c_read_timeout_us(i2c1, FX29_I2C_ADDR, buf, 2, false, 10000000);
-    int force = ((buf[0] & 0x3F ) << 8) | (buf[1] << 0);
+    int result = i2c_read_timeout_us(i2c1, FX29_I2C_ADDR, buf, 2, false, 100000);
+    int force;
+    if(result<0){
+        force = -2222;
+    }
+    else{
+    force =  ((buf[0] & 0x3F ) << 8) | (buf[1] << 0 );
+    }
     return force;
 }
 
@@ -227,8 +233,8 @@ float fx29_convert_to_lbf(int raw_force) {
 
     // Convertion based on data sheet values
     // https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=FX29&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=20009605-23
-    // return raw_force;
-    return (raw_force / FX29_MAX_COUNTS) * FX29_MAX_LBF;
+    return raw_force;
+    // return (raw_force / FX29_MAX_COUNTS) * FX29_MAX_LBF;
 
 }
 
@@ -283,7 +289,7 @@ int main() {
         "fx29_force"
     );
  
-    rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(1000), timer_callback);
+    rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(3000), timer_callback);
     rclc_executor_init(&executor, &support.context, 4, &allocator);
     rclc_executor_add_timer(&executor, &timer);
 

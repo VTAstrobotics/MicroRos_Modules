@@ -1,4 +1,4 @@
-# Install script for directory: /home/rosdev/pico-sdk/src/common/pico_util
+# Install script for directory: /home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/common/pico_util
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
