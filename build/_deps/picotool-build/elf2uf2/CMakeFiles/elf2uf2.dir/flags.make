@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rosdev/ros2_ws/src/build/_deps/picotool-src/elf2uf2 -I/home/rosdev/ros2_ws/src/build/_deps/picotool-src/elf -I/home/rosdev/ros2_ws/src/build/_deps/picotool-src/errors -isystem /home/rosdev/pico-sdk/src/common/boot_uf2_headers/include
+CXX_INCLUDES = -I/home/rosdev/ros2_ws/src/build/_deps/picotool-src/elf2uf2 -I/home/rosdev/ros2_ws/src/build/_deps/picotool-src/elf -I/home/rosdev/ros2_ws/src/build/_deps/picotool-src/errors -isystem /home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/common/boot_uf2_headers/include
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++14
 
