@@ -10,6 +10,7 @@
 #include <rmw_microros/rmw_microros.h>
 #include "pico_uart_transport.h"
 #include "pico/stdlib.h"
+#include <hardware/adc.h>
 
 //second file stuff below
 
@@ -19,10 +20,10 @@
 #include <math.h>
 
 
-#define IMU_SDA_PIN 4 //16
-#define IMU_SCL_PIN 5 //17
+#define IMU_SDA_PIN 4 
+#define IMU_SCL_PIN 5 
 #define IMU_PORT i2c0
-#define timeout 10000
+#define timeout 1000
 
 
 #define MPU6050_ADDRESS           0x68
@@ -30,7 +31,7 @@
 #define MPU6050_REG_ACCEL_XOUT_H  0x3B
 #define MPU6050_REG_GYRO_XOUT_H   0x43
 static int addr = 0x68;
-
+#define V_REF 3.3
 
 static rcl_publisher_t publisher;
 static sensor_msgs__msg__Imu imu_msg;
@@ -42,31 +43,15 @@ static rclc_executor_t executor;
 
 float eTime, cTime, pTime;
 
-/*
-This file is an attempted conversion of a file that reads a hx711 force sensor using pico into one
-that reads a fx29 sensor using pico. Also included is micro-ros publisher functions.
-
-This HAS NOT been tested and there is a good chance this does not work yet.
-
-This file has also included things for the pico. It is an attempted merge file. 
-*/
 static void read_raw(int16_t accel[3], int16_t gyro[3], int16_t *temp);
 
-struct fx_29_sensor{
-    int I2C_Address;
-};
-typedef struct fx_29_sensor FX29;
 
 // Ports and pins
-#define FX_29_I2C_PORT i2c1
-#define FX_29_SDA_PIN 2
-#define FX_29_SCL_PIN 3
-#define FX29_I2C_ADDR 0x28  // Default FX29 I2C address
-#define FX29_MAX_COUNTS 15000.0f  // Maximum digital counts from datasheet
-#define FX29_MAX_LBF 200.0f  // Maximum force in pounds (adjust based on sensor range)
 rcl_publisher_t imu_publisher;
 std_msgs__msg__Float32 msg;
 rcl_timer_t imu_timer;
+
+
 
 // Registers
 static const uint8_t REG_DEVID = 0x00;
@@ -79,6 +64,8 @@ typedef struct{
     double y;
     double z;
 }Quaterniond;
+
+
 
 Quaterniond toQuaternion(double yaw, double pitch, double roll) // yaw (Z), pitch (Y), roll (X)
 {
@@ -105,7 +92,6 @@ Quaterniond toQuaternion(double yaw, double pitch, double roll) // yaw (Z), pitc
 }
 
 
-//making non static for compiling
 void mpu6050_reset() {
     // Two byte reset. First byte register, second byte data
     // There are a load more options to set up the device in different ways that could be added here
@@ -200,49 +186,38 @@ void fill_message(sensor_msgs__msg__Imu *msg)
 }
 
 void fx29_init() {
-
-    i2c_init(i2c1, 1000 * 100);
-    gpio_set_function(FX_29_SDA_PIN, GPIO_FUNC_I2C);
-    gpio_set_function(FX_29_SCL_PIN, GPIO_FUNC_I2C);
-    gpio_pull_up(FX_29_SDA_PIN);
-    gpio_pull_up(FX_29_SCL_PIN);
-    sleep_ms(1000); // Allow device to reset and stabilize
-    i2c_write_timeout_us(i2c1, FX29_I2C_ADDR, 0x55, 1, true, 100000 );
+    adc_init();
+    adc_gpio_init(26);
+    adc_gpio_init(27);
+    adc_gpio_init(28);
 }
 
 
-int fx29_read_force_raw() {
-
-    // Address reading
-    uint8_t buf[2];
-    i2c_write_timeout_us(i2c1, FX29_I2C_ADDR, 0x04, 1, true, 100000 );
-    buf[0] = 0;
-    buf[1] = 0;
-    int result = i2c_read_timeout_us(i2c1, FX29_I2C_ADDR, buf, 2, false, 100000);
-    int force;
-    if(result<0){
-        force = -2222;
+float fx29_read_force_raw() {
+    float readings[3];
+    readings[0]=0;
+    readings[1]=0;
+    readings[2]=0;
+    const float conversion_factor = V_REF / (1 << 12); // for a 3.3v Vref
+    for (size_t i = 0; i < 3; i++)
+    {
+        adc_select_input(i);
+        sleep_ms(5);
+        readings[i] = adc_read() * conversion_factor;
     }
-    else{
-    force =  ((buf[0] & 0x3F ) << 8) | (buf[1] << 0 );
-    }
-    return force;
+
+    return readings[0] + readings[1] + readings[2];
+    
 }
 
-float fx29_convert_to_lbf(int raw_force) {
 
-    // Convertion based on data sheet values
-    // https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=FX29&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=20009605-23
-    return raw_force;
-    // return (raw_force / FX29_MAX_COUNTS) * FX29_MAX_LBF;
-
-}
 
 void timer_callback(rcl_timer_t *timer, int64_t last_call_time) {
 
     int raw_force = fx29_read_force_raw();
+    float force_to_volume = 0; // TODO: find what the conversion factor is
  
-    msg.data = fx29_convert_to_lbf(raw_force);
+    msg.data = raw_force * force_to_volume ;
     rcl_publish(&publisher, &msg, NULL);
 
 }
@@ -338,26 +313,6 @@ int main() {
     return 0;
 }
 
-/**
- * second file, IMU things
- */
-
-// static void i2c_write_byte(uint8_t dev_addr, uint8_t reg_addr, uint8_t data)
-// {
-//     uint8_t buf[2];
-//     buf[0] = reg_addr;
-//     buf[1] = data;
-//     i2c_write_timeout_us(I2C_PORT, dev_addr, buf, 2, false, timeout);
-// }
-
-
-// static void i2c_read_bytes(uint8_t dev_addr, uint8_t reg_addr, uint8_t *data, size_t len)
-// {
-//     i2c_write_timeout_us(I2C_PORT, dev_addr, &reg_addr, 1, true, timeout);
-//     i2c_read_timeout_us(I2C_PORT, dev_addr, data, len, false, timeout);
-// }
-
-
 static void setup(void)
 {
     // Two byte reset. First byte register, second byte data
@@ -415,21 +370,6 @@ static void read_raw(int16_t accel[3], int16_t gyro[3], int16_t *temp)
 
     *temp = buffer[0] << 8 | buffer[1];
 }
-
-//relocating above main
-// static void timer_callback_imu(rcl_timer_t *timer, int64_t last_call_time)
-// {
-//     if (timer == NULL) {
-//         return;
-//     }
-
-//     fill_message(&msg);
-
-//     rcl_ret_t ret = rcl_publish(&publisher, &msg, NULL);
-//     if (ret != RCL_RET_OK) {
-//         return;
-//     }
-
 
 
  

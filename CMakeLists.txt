@@ -22,6 +22,7 @@ target_link_libraries(competition_pico
     microros
     hardware_i2c
     hardware_gpio
+    hardware_adc
 )
 
 target_include_directories(competition_pico PUBLIC
