@@ -63,11 +63,11 @@ typedef struct{
     double x;
     double y;
     double z;
-}Quaterniond;
+}Quaternion;
 
 
 
-Quaterniond toQuaternion(double yaw, double pitch, double roll) // yaw (Z), pitch (Y), roll (X)
+Quaternion toQuaternion(double yaw, double pitch, double roll) // yaw (Z), pitch (Y), roll (X)
 {
     //Degree to radius:
     yaw = yaw * M_PI / 180;
@@ -83,7 +83,7 @@ Quaterniond toQuaternion(double yaw, double pitch, double roll) // yaw (Z), pitc
     double cr = cos(roll * 0.5);
     double sr = sin(roll * 0.5);
 
-    Quaterniond q;
+    Quaternion q;
     q.w = cy * cp * cr + sy * sp * sr;
     q.x = cy * cp * sr - sy * sp * cr;
     q.y = sy * cp * sr + cy * sp * cr;
@@ -174,7 +174,7 @@ void fill_message(sensor_msgs__msg__Imu *msg)
     float roll  = 0.96f * gyroAngleX + 0.04f * accAngleX;
     float pitch = 0.96f * gyroAngleY + 0.04f * accAngleY;
 
-    Quaterniond q;
+    Quaternion q;
     q = toQuaternion(yaw_angle, pitch, roll);
 
     
