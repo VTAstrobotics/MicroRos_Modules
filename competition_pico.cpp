@@ -18,13 +18,21 @@
 #include <sensor_msgs/msg/imu.h>
 #include <sensor_msgs/msg/joy.h>
 #include <math.h>
-
+#include "pico_filter_app.hpp"
+#include "hardware/watchdog.h"
 
 #define IMU_SDA_PIN 4 
 #define IMU_SCL_PIN 5 
 #define IMU_PORT i2c0
 #define timeout 1000
 
+#define NUM_CHANNELS 3
+#define AVG_WINDOW   8    // power‐of‐two is nice but any integer works
+
+// static storage for the rolling buffer & sums
+static uint16_t raw_buf[NUM_CHANNELS][AVG_WINDOW] = {{0}};
+static uint32_t sum_raw[NUM_CHANNELS]            = {0};
+static size_t   buf_idx                          = 0;
 
 #define MPU6050_ADDRESS           0x68
 #define MPU6050_REG_POWER_MGMT_1  0x6B
@@ -51,7 +59,7 @@ rcl_publisher_t imu_publisher;
 std_msgs__msg__Float32 msg;
 rcl_timer_t imu_timer;
 
-
+DF2_Filter filters[3];
 
 // Registers
 static const uint8_t REG_DEVID = 0x00;
@@ -189,35 +197,53 @@ void fx29_init() {
     adc_init();
     adc_gpio_init(26);
     adc_gpio_init(27);
+    gpio_pull_down(26);
+    gpio_pull_down(27);
+    gpio_pull_down(28);
     adc_gpio_init(28);
+    sleep_ms(100);
 }
 
 
 float fx29_read_force_raw() {
-    float readings[3];
-    readings[0]=0;
-    readings[1]=0;
-    readings[2]=0;
-    const float conversion_factor = V_REF / (1 << 12); // for a 3.3v Vref
-    for (size_t i = 0; i < 3; i++)
-    {
-        adc_select_input(i);
-        sleep_ms(5);
-        readings[i] = adc_read() * conversion_factor;
+    const float conv = V_REF / 4095.0f;  // 12-bit ADC ⇒ 0..4095
+  
+    // 1) read each channel, update rolling sums
+    for (size_t ch = 0; ch < 3; ch++) {
+      adc_select_input(ch );
+      (void)adc_read();       // dummy to flush
+      sleep_us(100);           // let sample cap settle
+      uint16_t raw = adc_read();
+  
+      // update sum: drop old, add new
+      sum_raw[ch] += raw;
+      sum_raw[ch] -= raw_buf[ch][buf_idx];
+      // store newest
+      raw_buf[ch][buf_idx] = raw;
     }
-
-    return readings[0] + readings[1] + readings[2];
-    
-}
+  
+    // 2) advance circular index
+    buf_idx = (buf_idx + 1) % AVG_WINDOW;
+  
+    // 3) compute channel averages → volts → sum
+    float total_volts = 0.0f;
+    for (size_t ch = 0; ch < 3; ch++) {
+      float avg_raw = sum_raw[ch] / (float)AVG_WINDOW;
+      total_volts  += avg_raw * conv;
+    }
+  
+    return total_volts; 
+  }
 
 
 
 void timer_callback(rcl_timer_t *timer, int64_t last_call_time) {
 
-    int raw_force = fx29_read_force_raw();
+    float raw_force = fx29_read_force_raw();
     float force_to_volume = 0; // TODO: find what the conversion factor is
  
-    msg.data = raw_force * force_to_volume ;
+    msg.data = raw_force ;//* force_to_volume ;
+    watchdog_update(); // Reset the watchdog timer
     rcl_publish(&publisher, &msg, NULL);
 
 }
@@ -264,7 +290,7 @@ int main() {
         "fx29_force"
     );
  
-    rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(3000), timer_callback);
+    rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(50), timer_callback);
     rclc_executor_init(&executor, &support.context, 4, &allocator);
     rclc_executor_add_timer(&executor, &timer);
 

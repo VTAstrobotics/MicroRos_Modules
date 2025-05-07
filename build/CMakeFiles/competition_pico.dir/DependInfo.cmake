@@ -150,6 +150,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "_deps/pico_sdk-src/src/rp2040/boot_stage2/include"
   "_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   "_deps/pico_sdk-src/src/rp2_common/hardware_i2c/include"
+  "_deps/pico_sdk-src/src/rp2_common/hardware_adc/include"
   )
 
 # The set of dependency files which are needed:
@@ -183,6 +184,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/common/pico_util/pheap.c" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.o" "gcc" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.o.d"
   "/home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/common/pico_util/queue.c" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.o" "gcc" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.o.d"
   "/home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/rp2040/pico_platform/platform.c" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2040/pico_platform/platform.c.o" "gcc" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2040/pico_platform/platform.c.o.d"
+  "/home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.o" "gcc" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.o.d"
   "/home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/rp2_common/hardware_boot_lock/boot_lock.c" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/hardware_boot_lock/boot_lock.c.o" "gcc" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d"
   "/home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.o" "gcc" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.o.d"
   "/home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.o" "gcc" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.o.d"
@@ -223,9 +225,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o" "gcc" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d"
   "/home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.o" "gcc" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.o.d"
   "/home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.o" "gcc" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.o.d"
-  "/home/rosdev/ros2_ws/src/competition_pico.c" "CMakeFiles/competition_pico.dir/competition_pico.c.o" "gcc" "CMakeFiles/competition_pico.dir/competition_pico.c.o.d"
   "/home/rosdev/ros2_ws/src/pico_uart_transport.c" "CMakeFiles/competition_pico.dir/pico_uart_transport.c.o" "gcc" "CMakeFiles/competition_pico.dir/pico_uart_transport.c.o.d"
   "/home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
+  "/home/rosdev/ros2_ws/src/competition_pico.cpp" "CMakeFiles/competition_pico.dir/competition_pico.cpp.o" "gcc" "CMakeFiles/competition_pico.dir/competition_pico.cpp.o.d"
+  "/home/rosdev/ros2_ws/src/pico_filter_app.cpp" "CMakeFiles/competition_pico.dir/pico_filter_app.cpp.o" "gcc" "CMakeFiles/competition_pico.dir/pico_filter_app.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -890,6 +890,30 @@ _deps/pico_sdk-src/src/rp2040/pico_platform/platform.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/competition_pico.dir/build.make CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2040/pico_platform/platform.c.s
 .PHONY : _deps/pico_sdk-src/src/rp2040/pico_platform/platform.c.s
 
+_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.o: _deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.o
+.PHONY : _deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.o
+
+# target to build an object file
+_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/competition_pico.dir/build.make CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.o
+.PHONY : _deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.o
+
+_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.i: _deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : _deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.i
+
+# target to preprocess a source file
+_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/competition_pico.dir/build.make CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : _deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.i
+
+_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.s: _deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : _deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.s
+
+# target to generate assembly for a file
+_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/competition_pico.dir/build.make CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : _deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.s
+
 _deps/pico_sdk-src/src/rp2_common/hardware_boot_lock/boot_lock.o: _deps/pico_sdk-src/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 .PHONY : _deps/pico_sdk-src/src/rp2_common/hardware_boot_lock/boot_lock.o
 
@@ -1962,29 +1986,53 @@ _deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/competition_pico.dir/build.make CMakeFiles/competition_pico.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : _deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.s
 
-competition_pico.o: competition_pico.c.o
+competition_pico.o: competition_pico.cpp.o
 .PHONY : competition_pico.o
 
 # target to build an object file
-competition_pico.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/competition_pico.dir/build.make CMakeFiles/competition_pico.dir/competition_pico.c.o
-.PHONY : competition_pico.c.o
+competition_pico.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/competition_pico.dir/build.make CMakeFiles/competition_pico.dir/competition_pico.cpp.o
+.PHONY : competition_pico.cpp.o
 
-competition_pico.i: competition_pico.c.i
+competition_pico.i: competition_pico.cpp.i
 .PHONY : competition_pico.i
 
 # target to preprocess a source file
-competition_pico.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/competition_pico.dir/build.make CMakeFiles/competition_pico.dir/competition_pico.c.i
-.PHONY : competition_pico.c.i
+competition_pico.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/competition_pico.dir/build.make CMakeFiles/competition_pico.dir/competition_pico.cpp.i
+.PHONY : competition_pico.cpp.i
 
-competition_pico.s: competition_pico.c.s
+competition_pico.s: competition_pico.cpp.s
 .PHONY : competition_pico.s
 
 # target to generate assembly for a file
-competition_pico.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/competition_pico.dir/build.make CMakeFiles/competition_pico.dir/competition_pico.c.s
-.PHONY : competition_pico.c.s
+competition_pico.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/competition_pico.dir/build.make CMakeFiles/competition_pico.dir/competition_pico.cpp.s
+.PHONY : competition_pico.cpp.s
+
+pico_filter_app.o: pico_filter_app.cpp.o
+.PHONY : pico_filter_app.o
+
+# target to build an object file
+pico_filter_app.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/competition_pico.dir/build.make CMakeFiles/competition_pico.dir/pico_filter_app.cpp.o
+.PHONY : pico_filter_app.cpp.o
+
+pico_filter_app.i: pico_filter_app.cpp.i
+.PHONY : pico_filter_app.i
+
+# target to preprocess a source file
+pico_filter_app.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/competition_pico.dir/build.make CMakeFiles/competition_pico.dir/pico_filter_app.cpp.i
+.PHONY : pico_filter_app.cpp.i
+
+pico_filter_app.s: pico_filter_app.cpp.s
+.PHONY : pico_filter_app.s
+
+# target to generate assembly for a file
+pico_filter_app.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/competition_pico.dir/build.make CMakeFiles/competition_pico.dir/pico_filter_app.cpp.s
+.PHONY : pico_filter_app.cpp.s
 
 pico_uart_transport.o: pico_uart_transport.c.o
 .PHONY : pico_uart_transport.o
@@ -2111,6 +2159,9 @@ help:
 	@echo "... _deps/pico_sdk-src/src/rp2040/pico_platform/platform.o"
 	@echo "... _deps/pico_sdk-src/src/rp2040/pico_platform/platform.i"
 	@echo "... _deps/pico_sdk-src/src/rp2040/pico_platform/platform.s"
+	@echo "... _deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.o"
+	@echo "... _deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.i"
+	@echo "... _deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.s"
 	@echo "... _deps/pico_sdk-src/src/rp2_common/hardware_boot_lock/boot_lock.o"
 	@echo "... _deps/pico_sdk-src/src/rp2_common/hardware_boot_lock/boot_lock.i"
 	@echo "... _deps/pico_sdk-src/src/rp2_common/hardware_boot_lock/boot_lock.s"
@@ -2248,6 +2299,9 @@ help:
 	@echo "... competition_pico.o"
 	@echo "... competition_pico.i"
 	@echo "... competition_pico.s"
+	@echo "... pico_filter_app.o"
+	@echo "... pico_filter_app.i"
+	@echo "... pico_filter_app.s"
 	@echo "... pico_uart_transport.o"
 	@echo "... pico_uart_transport.i"
 	@echo "... pico_uart_transport.s"

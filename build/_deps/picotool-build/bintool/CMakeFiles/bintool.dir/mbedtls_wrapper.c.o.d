@@ -85,6 +85,7 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: \
  /home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/sha512.h \
  /home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/pk.h \
  /home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/rsa.h \
+ /home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/version.h \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h

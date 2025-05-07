@@ -14,8 +14,8 @@ pico_sdk_init()
 link_directories(libmicroros)
 add_executable(competition_pico
     pico_uart_transport.c
-    pico_uart_transport.h
-    competition_pico.c
+    competition_pico.cpp
+    pico_filter_app.cpp
 )
 target_link_libraries(competition_pico
     pico_stdlib
@@ -23,6 +23,7 @@ target_link_libraries(competition_pico
     hardware_i2c
     hardware_gpio
     hardware_adc
+    hardware_watchdog
 )
 
 target_include_directories(competition_pico PUBLIC

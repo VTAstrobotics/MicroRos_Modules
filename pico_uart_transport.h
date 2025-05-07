@@ -4,6 +4,11 @@
 #include <stdio.h>
 #include <stdint.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 #include <uxr/client/profile/transport/custom/custom_transport.h>
 
 bool pico_serial_transport_open(struct uxrCustomTransport * transport);
@@ -12,3 +17,7 @@ size_t pico_serial_transport_write(struct uxrCustomTransport* transport, const u
 size_t pico_serial_transport_read(struct uxrCustomTransport* transport, uint8_t* buf, size_t len, int timeout, uint8_t* err);
 
 #endif //MICRO_ROS_PICOSDK
+
+#ifdef __cplusplus
+}  // extern "C"
+#endif

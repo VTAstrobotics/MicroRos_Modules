@@ -221,6 +221,9 @@ CMakeFiles/competition_pico.dir/competition_pico.c.o: \
  /home/rosdev/ros2_ws/src/libmicroros/include/rmw_microros/timing.h \
  /home/rosdev/ros2_ws/src/libmicroros/include/rmw_microros/custom_transport.h \
  /home/rosdev/ros2_ws/src/pico_uart_transport.h \
+ /home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/rp2_common/hardware_adc/include/hardware/adc.h \
+ /home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+ /home/rosdev/ros2_ws/src/build/_deps/pico_sdk-src/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
  /home/rosdev/ros2_ws/src/libmicroros/include/std_msgs/msg/int32.h \
  /home/rosdev/ros2_ws/src/libmicroros/include/std_msgs/msg/detail/int32__struct.h \
  /home/rosdev/ros2_ws/src/libmicroros/include/std_msgs/msg/detail/int32__functions.h \

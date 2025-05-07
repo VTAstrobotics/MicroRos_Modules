@@ -45,7 +45,7 @@ typedef struct{
     double x;
     double y;
     double z;
-}Quaterniond;
+}Quaternion;
 
 Quaterniond toQuaternion(double yaw, double pitch, double roll) // yaw (Z), pitch (Y), roll (X)
 {
